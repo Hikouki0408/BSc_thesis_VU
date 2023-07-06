@@ -1,0 +1,229 @@
+1. Subject: public research university, Relation: is in, Object: Amsterdam Netherlands
+2. Subject: two large funded research universities, Relation: is in, Object: city
+3. Subject: Amsterdam, Relation: of University is, Object: UvA
+4. Subject: parity basis, Relation: is with, Object: public universities
+5. Subject: VU, Relation: founded as, Object: private institution
+6. Subject: compact urban campus, Relation: is in, Object: southern Buitenveldert neighbourhood of Amsterdam
+7. Subject: top 150 universities, Relation: is in, Object: world
+8. Subject: university, Relation: has, Object: annual endowment for 2014
+9. Subject: Virgin, Relation: is in, Object: Garden
+10. Subject: 7 official university seal, Relation: is entitled, Object: Virgin in Garden
+11. Subject: Abraham Kuyper, Relation: leader of, Object: university
+12. Subject: virgin living, Relation: is in, Object: freedom
+13. Subject: it, Relation: pointing towards, Object: God
+14. Subject: Protestant Reformation, Relation: is in, Object: Netherlands
+16. Subject: Abraham Kuyper, Relation: founder of, Object: VU
+17. Subject: first Protestant university, Relation: is in, Object: Netherlands
+18. Subject: VU, Relation: was, Object: founded in 1880 by group of Calvinists led by Abraham Kuyper as first Protestant university in Netherlands
+19. Subject: Kuyper, Relation: was, Object: theologian
+20. Subject: university, Relation: has, Object: first rector magnificus
+21. Subject: university, Relation: 's magnificus is, Object: academic president
+22. Subject: Kuyper, Relation: has, Object: worldview
+23. Subject: Amsterdam, Relation: in, Object: city centre
+24. Subject: Amstel river, Relation: is in, Object: Amsterdam 's city centre
+25. Subject: four fellow professors, Relation: lecturing in, Object: three faculties
+26. Subject: fellow professors, Relation: lecturing in, Object: three faculties
+27. Subject: De Lairessestraat, Relation: at Laboratory is, Object: 1932
+28. Subject: Calvinist community, Relation: is in, Object: Netherlands
+29. Subject: period, Relation: end of, Object: 1960s
+30. Subject: time, Relation: of period is, Object: end
+31. Subject: university, Relation: has, Object: profile
+32. Subject: university 's profile, Relation: changed significantly in, Object: many respects
+33. Subject: 1968 onwards, Relation: From 9 is, Object: university relocated to new functional campus in southern Buitenveldert neighbourhood
+34. Subject: Amsterdam, Relation: from, Object: city centre
+35. Subject: new functional campus, Relation: is in, Object: southern Buitenveldert neighbourhood
+36. Subject: parity, Relation: is with, Object: public universities
+37. Subject: new student organizations, Relation: demanding, Object: more democratic academic culture at VU
+38. Subject: demanding, Relation: more democratic academic culture at, Object: VU
+39. Subject: small elitist Christian institution, Relation: become, Object: broad research-oriented university
+40. Subject: 15,700 students, Relation: is in, Object: 2002
+41. Subject: Student numbers, Relation: grow rapidly in, Object: 21st century
+42. Subject: university, Relation: has embarked on, Object: 10
+43. Subject: large-scale renewal, Relation: including agenda is, Object: 10
+44. Subject: Main Building, Relation: of, Object: eastern wing
+45. Subject: university, Relation: has, Object: campus
+46. Subject: medical centre, Relation: part of, Object: southern district of Amsterdam
+47. Subject: largest banks, Relation: is in, Object: Netherlands
+48. Subject: university, Relation: has, Object: Main Building established in 1973
+49. Subject: sixteen-story building, Relation: is currently undergoing, Object: major renovation works
+50. Subject: several floors, Relation: is with, Object: closed stacks
+51. Subject: Initium Building, Relation: Faculty of, Object: Law
+52. Subject: medical faculty, Relation: is located on, Object: west end of campus adjacent to sprawling VU University Medical Center
+53. Subject: it, Relation: is weekly converted in, Object: film screening space
+54. Subject: first university buildings, Relation: is in, Object: Netherlands
+55. Subject: relevant issues, Relation: is in, Object: field of Human Health
+56. Subject: satellite campus Uilenstede, Relation: is located further south in, Object: municipality of Amstelveen
+57. Subject: several large student housing complexes, Relation: to home is, Object: VU Sports Centre
+58. Subject: university, Relation: has, Object: administrative departments
+59. Subject: Uilenstede, Relation: is, Object: served
+60. Subject: municipality, Relation: has, Object: architecture prize
+61. Subject: 14 new building, Relation: was awarded, Object: municipality 's architecture prize
+62. Subject: private institution, Relation: part of, Object: VU-VUmc Foundation
+63. Subject: Universiteit, Relation: is, Object: private
+64. Subject: Council, Relation: body of, Object: elected representatives
+65. Subject: consultation rights, Relation: is in, Object: areas of university policy
+66. Subject: university, Relation: has, Object: Council
+67. Subject: university, Relation: 's Council is, Object: body of elected representatives of faculty
+68. Subject: Teaching, Relation: is organized within, Object: several faculties
+69. Subject: most bachelor, Relation: for, Object: courses
+70. Subject: Business Analytics, Relation: Faculty of, Object: Science
+71. Subject: Computer Science, Relation: Faculty of, Object: Science
+72. Subject: five bachelor, Relation: has, Object: programmes fully in English
+73. Subject: five bachelor 's programmes, Relation: is in, Object: fully English
+74. Subject: International Business Administration, Relation: School of, Object: Business
+75. Subject: university-wide VU Honours Programme, Relation: is taught in, Object: English
+76. Subject: 130 master, Relation: Over, Object: programmes at VU
+77. Subject: master, Relation: In, Object: programmes
+78. Subject: bilateral exchange agreements, Relation: is with, Object: foreign universities
+79. Subject: As funded universities, Relation: is in, Object: Netherlands
+80. Subject: bachelor, Relation: has, Object: students
+81. Subject: master, Relation: has, Object: programmes
+82. Subject: PhD programmes, Relation: are, Object: organized
+83. Subject: PhD programmes, Relation: are, Object: organized differently
+84. Subject: Most faculties, Relation: advertise, Object: open positions on their websites
+85. Subject: Most faculties, Relation: advertise, Object: open positions
+86. Subject: VU, Relation: was, Object: ranked
+87. Subject: VU, Relation: was ranked, Object: 121st
+88. Subject: VU, Relation: ranks 87th in, Object: world
+89. Subject: top 100 universities, Relation: is in, Object: worldwide following subject areas
+90. Subject: strong performances, Relation: is in, Object: fields such Economics
+91. Subject: CWTS, Relation: focusing on, Object: citation output
+92. Subject: higher rankings, Relation: is in, Object: subject areas
+93. Subject: Connected World, Relation: focusing on, Object: impact information technology society
+94. Subject: faculty research centres, Relation: In addition to 32 is, Object: university houses
+95. Subject: 17 research groups, Relation: is in, Object: pharmaceutical sciences
+96. Subject: 33 example, Relation: Institute of, Object: Molecules
+97. Subject: 29 %, Relation: were, Object: PhD candidates
+98. Subject: 29 %, Relation: were, Object: PhD candidates employed as junior researchers
+99. Subject: highest scientific award, Relation: is in, Object: Netherlands
+100. Subject: Spinoza Prize, Relation: award in, Object: Netherlands
+101. Subject: five floors, Relation: is in, Object: university 's Main Building
+102. Subject: university, Relation: in, Object: Main Building
+103. Subject: printed items, Relation: is in, Object: 26 collections
+104. Subject: library 's special collections department, Relation: printed items in, Object: 26 collections
+105. Subject: library, Relation: has, Object: special collections department
+106. Subject: university, Relation: has, Object: independent newspaper
+107. Subject: university, Relation: 's newspaper is, Object: Ad Valvas
+108. Subject: newspaper, Relation: through, Object: website
+109. Subject: De Rode Pieper, Relation: consultant in, Object: field of cross-cultural communication
+110. Subject: management consultant, Relation: is in, Object: field of cross-cultural communication
+111. Subject: De Rode Pieper, Relation: Institute for, Object: Health
+112. Subject: best move, Relation: is in, Object: situation
+113. Subject: Henri Bal, Relation: professor of, Object: Computer Science
+114. Subject: Dorret Boomsma, Relation: professor of, Object: biological psychology
+115. Subject: Dorret Boomsma, Relation: professor of, Object: evolutionary psychology
+116. Subject: Ohio State University, Relation: is in, Object: United States
+117. Subject: Jaap Doek, Relation: professor of, Object: law
+118. Subject: Carolyn Fischer, Relation: professor of, Object: economics
+119. Subject: Jaap Doek, Relation: professor of, Object: Artificial Intelligence
+120. Subject: ethicist, Relation: author of, Object: nearly 20 books
+121. Subject: Peter Nijkamp, Relation: professor of, Object: spatial economics
+122. Subject: Peter Nijkamp, Relation: president of, Object: governing board
+123. Subject: Netherlands Research Council, Relation: winner of, Object: Spinozapremie
+124. Subject: leading researcher, Relation: is in, Object: transport economics
+125. Subject: Piet Rietveld, Relation: professor of, Object: economics
+126. Subject: Andrew S. Tanenbaum, Relation: professor of, Object: Computer Science
+127. Subject: leading researcher, Relation: is in, Object: economics of climate change Pier Vellinga
+128. Subject: com Richard Tol, Relation: professor of, Object: economics
+129. Subject: climate change Pier Vellinga, Relation: director of, Object: Climate Centre
+130. Subject: theologian Jan Peter Balkenende, Relation: professor on, Object: International Court of Justice Abraham Kuyper
+131. Subject: theologian Jan Peter Balkenende, Relation: professor of, Object: physics Anthony Tol
+132. Subject: House, Relation: Minister of, Object: Education
+133. Subject: theologian Jan Peter Balkenende, Relation: professor of, Object: molecular biology
+134. Subject: Reijer Hooykaas, Relation: historian of, Object: science James Kennedy
+135. Subject: Minister, Relation: philosopher of, Object: law Caroline van Eck
+136. Subject: theologian Jan Peter Balkenende, Relation: professor of, Object: international law
+137. Subject: Education, Relation: of Minister is, Object: historian Herman Dooyeweerd
+138. Subject: Education, Relation: of Minister is, Object: philosopher
+139. Subject: theologian Jan Peter Balkenende, Relation: member of, Object: House
+140. Subject: science James Kennedy, Relation: professor of, Object: computer science
+141. Subject: Gustav Mahlerlaan, Relation: at Building is, Object: 2010
+142. Subject: Human Movement Sciences Jan Peter Balkenende, Relation: Minister of, Object: Netherlands
+143. Subject: Human Movement Sciences Jan Peter Balkenende, Relation: history at, Object: VU Jacobus Boomsma
+144. Subject: Gerrit Cornelis Berkouwer, Relation: theologian at, Object: Vrije Universiteit Wouter Bos
+145. Subject: world, Relation: has, Object: second largest staffing company
+146. Subject: Papua Frits Goldschmeding, Relation: founder of, Object: Randstad Holding
+147. Subject: VU Elco Brinkman, Relation: leader of, Object: CDA party
+148. Subject: his PhD, Relation: studied law at, Object: founder of Reformational Philosophy
+149. Subject: Bas de Gaay Fortman, Relation: Chair in, Object: Political Economy of Human Rights Andries de Grip
+150. Subject: Randstad Holding, Relation: company 's, Object: world
+151. Subject: Human Movement Sciences Piet Hein Donner, Relation: Minister of, Object: Justice
+152. Subject: world 's Chair, Relation: is in, Object: Political Economy of Human Rights Andries de Grip
+153. Subject: VU Wim Deetman, Relation: Mayor of, Object: Hague
+154. Subject: Bas de Gaay Fortman, Relation: Chair 's, Object: world
+155. Subject: VU Herman Dooyeweerd, Relation: founder of, Object: Reformational Philosophy
+156. Subject: Bas de Gaay Fortman, Relation: Director at, Object: STT Walter Post
+157. Subject: Bas de Gaay Fortman, Relation: Director of, Object: Post-Graduate Program
+158. Subject: world, Relation: has, Object: only Chair in Political Economy of Human Rights Andries de Grip
+159. Subject: peace, Relation: is in, Object: Papua Frits Goldschmeding
+160. Subject: Papua Christian Church, Relation: of Chairman is, Object: Sinode KINGMI di Tanah Papua
+161. Subject: Bas de Gaay Fortman, Relation: leader of, Object: LPF at VU Benny Giay
+162. Subject: VU Benny Giay, Relation: Chairman of, Object: Papua Christian Church
+163. Subject: Hans van Goor, Relation: alderman in, Object: Amsterdam city council
+164. Subject: his PhD degree, Relation: is in, Object: Computer Science
+165. Subject: Hans van Goor, Relation: member of, Object: Dutch parliament
+166. Subject: former alderman, Relation: is in, Object: Amsterdam city council
+167. Subject: Bert Koenders, Relation: Minister in, Object: cabinet Balkenende IV
+168. Subject: Institute, Relation: at Olthuis is, Object: philosopher
+169. Subject: VU Pauline Krikke, Relation: alderman in, Object: Amsterdam city council
+170. Subject: Atzo Nicolaï, Relation: law at, Object: VU James Olthuis
+171. Subject: Dutch-New Zealand academic Jona Lendering, Relation: Historian of, Object: seven books
+172. Subject: Minister, Relation: is in, Object: cabinet Balkenende IV
+173. Subject: VU Pauline Krikke, Relation: mayor of, Object: Arnhem Ronald A. Kuipers
+174. Subject: Atzo Nicolaï, Relation: Minister of, Object: Government Reform
+175. Subject: Minister, Relation: is in, Object: cabinet Balkenende III
+176. Subject: VU Pauline Krikke, Relation: mayor as of, Object: 2018 Karin Lasthuizen
+177. Subject: Atzo Nicolaï, Relation: Minister in, Object: cabinet Balkenende III
+178. Subject: former alderman, Relation: is in, Object: Amsterdam city council
+179. Subject: missionary vicar, Relation: is in, Object: Philosophical Aesthetics at Institute for Christian Studies
+180. Subject: Potchefstroom University, Relation: of rector is, Object: missionary vicar in Philosophical Aesthetics at Institute for Christian Studies
+181. Subject: Christian Higher Education, Relation: for rector is, Object: missionary vicar of Westerkerk in Philosophical Aesthetics at Institute
+182. Subject: rector, Relation: vicar of, Object: Westerkerk
+183. Subject: rector, Relation: vicar in, Object: Philosophical Aesthetics at Institute for Christian Studies
+184. Subject: rector, Relation: is in, Object: 1919 Cristina Pumplun
+185. Subject: Christian Higher Education, Relation: is in, Object: Potchefstroom
+186. Subject: faculty, Relation: is in, Object: cabinet Balkenende IV
+187. Subject: Gerrit Zalm, Relation: Minister of, Object: Finance
+188. Subject: Minister, Relation: is in, Object: cabinets
+189. Subject: Potchefstroom South Africa Karel Marinus Van Vliet physicist Geert M.N. Verschuuren, Relation: in Rooy is, Object: Rector of Potchefstroom University for Christian Higher Education
+190. Subject: VU Johannes Cornelis van Rooy, Relation: is in, Object: Potchefstroom South Africa Karel Marinus Van Vliet physicist Geert M.N. Verschuuren
+191. Subject: Gerrit Zalm, Relation: Minister in, Object: cabinets
+192. Subject: Biology Hans Vijlbrief, Relation: of Philosophy is, Object: studied economics at VU Werner Vogels
+193. Subject: VU Johannes Cornelis van Rooy, Relation: Rector for, Object: Christian Higher Education
+194. Subject: ABN AMRO, Relation: economics at, Object: VU
+195. Subject: Philosophy, Relation: is in, Object: cabinet Rutte III
+196. Subject: VU Johannes Cornelis van Rooy, Relation: Rector of, Object: Potchefstroom University
+197. Subject: Philosophy, Relation: economics at, Object: VU Werner Vogels
+198. Subject: his PhD, Relation: is in, Object: Computer Science
+199. Subject: Potchefstroom South Africa Karel Marinus Van Vliet physicist Geert M.N. Verschuuren, Relation: Philosophy of, Object: Science
+200. Subject: Professor, Relation: is in, Object: University of Pretoria
+201. Subject: modern universities, Relation: is in, Object: Europe
+202. Subject: PDF, Relation: is in, Object: Dutch
+203. Subject: De maagd, Relation: is in, Object: de tuin
+204. Subject: VU University, Relation: of, Object: b c VU University Amsterdam
+205. Subject: VU University, Relation: ' Amsterdam is, Object: 2014
+206. Subject: 20 May 2016, Relation: on original is, Object: PDF
+207. Subject: PDF, Relation: is in, Object: Dutch
+208. Subject: De maagd, Relation: is in, Object: de tuin
+209. Subject: de Vrije Universiteit veranderde, Relation: is in, Object: de jaren zeventig
+210. Subject: 4 December 2013 Griffioen, Relation: is in, Object: English '
+211. Subject: Uilenstede Oost, Relation: wins, Object: architecture prize
+212. Subject: Bachelor, Relation: has, Object: degree programmes in English '
+213. Subject: International Master, Relation: ', Object: Programmes
+214. Subject: QS World University Rankings 2014 Results, Relation: ', Object: VU University Research Profile
+215. Subject: 2013-12-03, Relation: on original is, Object: PDF
+216. Subject: 2013-12-03, Relation: on original is, Object: PDF
+217. Subject: 2016-05-20, Relation: on original is, Object: PDF
+218. Subject: Special Collections, Relation: ', Object: Meer Advalvas voor hetzelfde geld
+219. Subject: Us, Relation: About, Object: University Library
+220. Subject: Categories Vrije Universiteit Amsterdam Universities, Relation: is in, Object: Netherlands Christian universities
+221. Subject: CS1 Dutch-language sources Articles, Relation: is with, Object: short description Short description
+222. Subject: University, Relation: About, Object: accommodation
+223. Subject: Ghent University Grenoble Alpes University Justus Liebig University, Relation: is in, Object: Giessen La Trobe University Malmö University Norwegian University of Science
+224. Subject: media, Relation: related to, Object: Vrije Universiteit Amsterdam Vrije Universiteit Website University accommodation
+225. Subject: Netherlands Christian universities, Relation: is in, Object: Netherlands Protestantism
+226. Subject: Netherlands Protestantism, Relation: is in, Object: Netherlands Educational institutions established
+227. Subject: Adam Mickiewicz University, Relation: is in, Object: Poznań Babeș-Bolyai University Eindhoven University of Technology
+228. Subject: you, Relation: using, Object: site
+229. Subject: ®, Relation: is, Object: registered
+
