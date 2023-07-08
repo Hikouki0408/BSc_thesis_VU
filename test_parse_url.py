@@ -20,13 +20,13 @@ class MyHTMLParser(HTMLParser):
         if tag == "body":
             self.inside_body_tag = True
         self.tag_stack.append(tag)
-        if tag in ["style", "script", "img", "iframe", "br","button", "title", "label"]:
+        if tag in ["script", "style", "image", "iframe", "br", "button", "title", "label"]:
             self.skip_tag = True
 
     def handle_endtag(self, tag):
         if tag == "body":
             self.inside_body_tag = False
-        if tag in ["style", "script", "img", "iframe"]:
+        if tag in ["script", "style", "image", "iframe", "br", "button", "title", "label"]:
             self.skip_tag = False
         self.tag_stack.pop()
 
@@ -94,7 +94,7 @@ class MyHTMLParser(HTMLParser):
                     else:
                         print(datum, end=", ") 
 
-response = urllib.request.urlopen('https://en.wikipedia.org/wiki/Vrije_Universiteit_Amsterdam')
+response = urllib.request.urlopen('https://www.gutenberg.org/cache/epub/32498/pg32498-images.html')
 parser = MyHTMLParser()
 print("[Parsing HTML file...]")
 print()

@@ -2,6 +2,7 @@ from urllib import request
 from html.parser import HTMLParser
 import re
 import spacy
+import sys
 
 class MyHTMLParser(HTMLParser):
 
@@ -20,13 +21,14 @@ class MyHTMLParser(HTMLParser):
         if tag == "body":
             self.inside_body_tag = True
         self.tag_stack.append(tag)
-        if tag in ["script", "style", "label", "option", "button", "textarea", "iframe"]:
+        #["script", "style", "label", "option", "button", "textarea", "iframe"]:
+        if tag in ["script", "style", "image", "iframe", "button", "title", "label", "nav", "footer"]:
             self.skip_tag = True
 
     def handle_endtag(self, tag):
         if tag == "body":
             self.inside_body_tag = False
-        if tag in ["script", "style", "label", "option", "button", "textarea", "iframe"]:
+        if tag in ["script", "style", "image", "iframe", "button", "title", "label", "nav", "footer"]:
             self.skip_tag = False
         self.tag_stack.pop()
 
@@ -49,12 +51,10 @@ class MyHTMLParser(HTMLParser):
                     label = "Puretext"
                     message = f"{label}: [{data.strip()}] (tag: {tag})"
                     self.text += (data.strip() + " ")
-        if message:
-            print(message)
 
 # Fetch the URL and pass the HTML content to the parser
 
-url = "https://en.wikipedia.org/wiki/Vrije_Universiteit_Amsterdam"
+url = "https://www.gutenberg.org/cache/epub/27137/pg27137-images.html"
 response = request.urlopen(url)
 html_content = response.read().decode('utf-8')
 
@@ -65,6 +65,22 @@ parser.feed(html_content)
 print("[Done parsing HTML content.]")
 print()
 print(parser.text)
+text_size = sys.getsizeof(parser.text)
+print("Size of the text:", text_size, "bytes")
+
+filename = "output.txt"  # Specify the filename or path of the input file
+
+# Read the file and remove newlines
+with open(filename, "r") as file:
+    text = file.read().replace('\n', ' ')
+
+# Write the modified text back to the same file
+with open(filename, "w") as file:
+    file.write(text)
+    
+
 
 # https://en.wikipedia.org/wiki/Vrije_Universiteit_Amsterdam
 # https://hikouki0408.github.io/portfolio 
+
+#Size of the text: 686764 bytes

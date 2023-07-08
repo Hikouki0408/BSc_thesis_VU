@@ -1,7 +1,7 @@
 import json
 
 # Read the subjects from the text file
-with open('all_vu_wiki.txt', 'r') as file:
+with open('all_ebook.txt', 'r') as file:
     subjects = file.read().splitlines()
 
 # Create a list to store the subject instances
@@ -18,5 +18,5 @@ for subject in subjects:
     subject_instances.append(subject_instance)
 
 # Save the subject instances to a JSON file
-with open('subjects.json', 'w') as file:
+with open('dataset_ebook.json', 'w') as file:
     json.dump(subject_instances, file, indent=4)

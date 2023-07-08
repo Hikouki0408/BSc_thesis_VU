@@ -1113,15 +1113,5 @@
         "Subject": "Adam Mickiewicz University",
         "Relation": "is in",
         "Object": "Pozna\u0144 Babe\u0219-Bolyai University Eindhoven University of Technology"
-    },
-    {
-        "Subject": "you",
-        "Relation": "using",
-        "Object": "site"
-    },
-    {
-        "Subject": "\u00ae",
-        "Relation": "is",
-        "Object": "registered"
     }
 ]
