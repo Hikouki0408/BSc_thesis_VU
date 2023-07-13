@@ -79,7 +79,7 @@ class MyHTMLParser(HTMLParser):
         
 
 
-with open('dataset_ebook.json', 'r') as file:
+with open('Datasets/dataset_ebook.json', 'r') as file:
     json_data = json.load(file)
     
 # Fetch the URL and pass the HTML content to the parser

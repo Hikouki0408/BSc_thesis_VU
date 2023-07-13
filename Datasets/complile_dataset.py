@@ -1,7 +1,7 @@
 import json
 
 # Read the subjects from the text file
-with open('all_ebook.txt', 'r') as file:
+with open('Datasets/all_ebook.txt', 'r') as file:
     subjects = file.read().splitlines()
 
 # Create a list to store the subject instances

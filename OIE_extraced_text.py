@@ -35,22 +35,21 @@ class MyHTMLParser(HTMLParser):
     def handle_data(self, data):
         message = ''
         label = "undefined"
-        if self.inside_body_tag:
-            if not self.skip_tag and data.strip():
-                tag = self.tag_stack[-1] if self.tag_stack else None
-                if re.search(self.email_pattern, data) and not any(char.isspace() for char in data.strip()):
-                    label = "Email"
-                    message = f"{label}: [{data.strip()}] (tag: {tag})"
-                elif re.search(self.url_pattern, data) and not any(char.isspace() for char in data.strip()):
-                    label = "Website"
-                    message = f"{label}: [{data.strip()}] (tag: {tag})"
-                elif not re.search(r'[a-zA-Z0-9]', data):
-                    label = "Non-contextual"
-                    message = f"{label}: [{data.strip()}] (tag: {tag})"
-                else:
-                    label = "Puretext"
-                    message = f"{label}: [{data.strip()}] (tag: {tag})"
-                    self.text += (data.strip() + " ")
+        if data.strip():
+            tag = self.tag_stack[-1] if self.tag_stack else None
+            if re.search(self.email_pattern, data) and not any(char.isspace() for char in data.strip()):
+                label = "Email"
+                message = f"{label}: [{data.strip()}] (tag: {tag})"
+            elif re.search(self.url_pattern, data) and not any(char.isspace() for char in data.strip()):
+                label = "Website"
+                message = f"{label}: [{data.strip()}] (tag: {tag})"
+            elif not re.search(r'[a-zA-Z0-9]', data):
+                label = "Non-contextual"
+                message = f"{label}: [{data.strip()}] (tag: {tag})"
+            else:
+                label = "Puretext"
+                message = f"{label}: [{data.strip()}] (tag: {tag})"
+                self.text += (data.strip() + " ")
 
     def extract_relations_from_text(self, instances):
         nlp = StanfordCoreNLP('http://localhost:9000')
@@ -101,11 +100,11 @@ class MyHTMLParser(HTMLParser):
         """
            
                 
-with open('dataset_ebook.json', 'r') as file:
+with open('Datasets/dataset_ebook.json', 'r') as file:
     json_data = json.load(file)
     
 # Fetch the URL and pass the HTML content to the parser
-url = "https://www.gutenberg.org/cache/epub/27137/pg27137-images.html"
+url = "https://en.wikipedia.org/wiki/Vrije_Universiteit_Amsterdam"
 response = request.urlopen(url)
 html_content = response.read().decode('utf-8')
 parser = MyHTMLParser()
