@@ -34,8 +34,10 @@ but also enhances the accuracy of relation extraction.
     - To remove noise and unwanted characters, the Python built-in string method `strip()` is utilized, enabling the removal of leading and trailing whitespace or specific characters from the strings extracted from HTML pages.
 - Prioritizing the textual information
     - our method categorizes the extracted text into four labels, which are `Email`, `Weblinks`, `Puretext`, and `Noncontextual`, as depicted in the picture below.
+
+      
 ![Figure 1](Figures/work_flow.png)
-    - Our engine employs such a categorization system based on predefined text formats and patterns, which are as follows:
+-  Our engine employs such a categorization system based on predefined text formats and patterns, which are as follows:
       
       ```
       self.email_pattern = re.compile(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b')
