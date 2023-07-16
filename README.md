@@ -33,8 +33,8 @@ but also enhances the accuracy of relation extraction.
 - Noise removal
     - To remove noise and unwanted characters, the Python built-in string method `strip()` is utilized, enabling the removal of leading and trailing whitespace or specific characters from the strings extracted from HTML pages.
 - Prioritizing the textual information
-    - our method categorizes the extracted text into four labels, which are `Email`, `Weblinks`, `Puretext`, and `Noncontextual`, as depicted in Figure 1.
-![Figure 1](img/picture.png)
+    - our method categorizes the extracted text into four labels, which are `Email`, `Weblinks`, `Puretext`, and `Noncontextual`, as depicted in the picture below.
+![Figure 1](Figures/work_flow.png)
     - Our engine employs such a categorization system based on predefined text formats and patterns, which are as follows:
       
       ```
@@ -47,11 +47,13 @@ but also enhances the accuracy of relation extraction.
 - The relation extraction model utilized in this experiment is based on a Python NLP library
 provided by the [StanfordCoreNLP](https://nlp.stanford.edu/software/openie.html) framework. To extract relations or information from text, we can utilize the `openie` annotator within the 
 framework. 
-- We provide an example of text input and its corresponding result in Figure 2. When the extracted text contains two sentences with a period (’.’) separating them, the Open IE model extracts three sets of triples from the input. However, if the period is missing between the two sentences, the model only extracts one set of triples.
-![Figure 2](img/picture.png)
+- Here is an example of text input and its corresponding result in the picture below. When the extracted text contains two sentences with a period (’.’) separating them, the Open IE model extracts three sets of triples from the input. However, if the period is missing between the two sentences, the model only extracts one set of triples.
+  
+    <img src="Figures/Open_stanford.png" alt="Figure 2" width="800" height="320">
 # Datasets
 - The structure of the dataset essentially encompasses all the anticipated subject-verb-object triples extracted by the Open IE model.
-- The datasets and related text are available in the folder [Datasets](./Datasets). 
+- The datasets and related text are available in the folder [Datasets](./Datasets).
+- We have selected two real HTML-based websites for datasets. The first website is a [Wikipedia page](https://en.wikipedia.org/wiki/Vrije_Universiteit_Amsterdam) while the second is an [eBook](https://www.gutenberg.org/cache/epub/27137/pg27137-images.html) presented in HTML format. The text contents from these websites are extracted and compiled into a dataset.
 # Experiment
  - Base model vs Our model
  - For the base model, run the code: `OIE_whole.py`
