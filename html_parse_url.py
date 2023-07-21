@@ -15,24 +15,25 @@ class MyHTMLParser(HTMLParser):
         self.url_pattern = re.compile(r'^(?:https?://|www\.)\S+\.[a-zA-Z]{2,}(?:[/?#]\S*)?$')
         self.date_patterns = ["\d{1,2}\/\d{1,2}\/\d{4}", "\d{1,2}-\d{1,2}-d{4}"]
         self.count = 0
+        self.text = ""
         
     def handle_starttag(self, tag, attrs):
         if tag == "body":
             self.inside_body_tag = True
         self.tag_stack.append(tag)
-        if tag in ["script", "style", "image", "iframe", "br", "button", "title", "label"]:
+        if tag in ["script", "style", "image", "iframe", "button", "label", "nav", "footer"]:
             self.skip_tag = True
 
     def handle_endtag(self, tag):
         if tag == "body":
             self.inside_body_tag = False
-        if tag in ["script", "style", "image", "iframe", "br", "button", "title", "label"]:
+        if tag in ["script", "style", "image", "iframe", "button", "label", "nav", "footer"]:
             self.skip_tag = False
         self.tag_stack.pop()
 
     def handle_data(self, data):
         message = ''
-        label = "Puretext"
+        label = "undefined"
         if self.inside_body_tag:
             if not self.skip_tag and data.strip():
                 # returns the last tag in the list
@@ -56,6 +57,7 @@ class MyHTMLParser(HTMLParser):
                     self.data_by_label[label].append(data.strip())
                     message = f"{label}: [{data.strip()}] (tag: {tag})"
                 else:
+                    label = "Puretext"
                     doc = self.nlp(data.strip())
                     named_entities = []
                     for ent in doc.ents:
@@ -67,6 +69,7 @@ class MyHTMLParser(HTMLParser):
                         if label not in self.data_by_label:
                             self.data_by_label[label] = []
                         self.data_by_label[label].append(data.strip())
+                        self.text += data.strip() + " "
                         message = f"{label}: [{data.strip()}], Labels:[{', '.join([ent.label_ for ent in doc.ents if ent.text in named_entities])}] {', '.join(named_entities)} (tag: {tag})"
                         self.count += 1
                         for ent in doc.ents:
@@ -78,6 +81,7 @@ class MyHTMLParser(HTMLParser):
                         if label not in self.data_by_label:
                             self.data_by_label[label] = []
                         self.data_by_label[label].append(data.strip())
+                        self.text += data.strip() + " "
                         message = f"{label}: [{data.strip()}] (tag: {tag})"
                         self.count += 1
         if message:
@@ -94,7 +98,7 @@ class MyHTMLParser(HTMLParser):
                     else:
                         print(datum, end=", ") 
 
-response = urllib.request.urlopen('https://www.gutenberg.org/cache/epub/32498/pg32498-images.html')
+response = urllib.request.urlopen('https://www.tudelftcampus.nl/time-to-shake-up-the-pile-driving-industry')
 parser = MyHTMLParser()
 print("[Parsing HTML file...]")
 print()
@@ -103,11 +107,10 @@ print("[Done parsing HTML file.]")
 print()
 parser.print_data_by_label()
 print("[Done printing data by label.]")
+print(parser.text)
 
+with open('text.txt', 'w') as file:
+    file.write(parser.text)
 
 """
-potential unrelated tags so far: if tag in ["script", "style", "label", "option", "button", "textarea"]:
-https://hikouki0408.github.io/portfolio
-https://www.cntraveller.com/gallery/beautiful-places-amsterdam
-add more....
 """

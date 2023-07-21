@@ -1,0 +1,55 @@
+1. Subject: you, Relation: avoid, Object: visa fees
+2. Subject: you, Relation: might, Object: how might able
+3. Subject: EU, Relation: has, Object: new EES
+4. Subject: EU 's new EES, Relation: will register, Object: additional information about non-EU travellers to bloc
+5. Subject: Passport stamps, Relation: will, Object: will scrapped
+6. Subject: 90 days, Relation: is in, Object: EU
+7. Subject: their time, Relation: is in, Object: EU Non-EU citizens
+8. Subject: Bali, Relation: has, Object: digital nomads
+9. Subject: what new law, Relation: banning sex before, Object: marriage
+10. Subject: Switzerland 's high-tech GoldenPass Express train, Relation: grow, Object: taller
+11. Subject: Switzerland, Relation: has, Object: high-tech GoldenPass Express train
+12. Subject: they, Relation: apply again for, Object: three years
+13. Subject: Kingdom, Relation: Isle of, Object: Man
+14. Subject: it, Relation: be, Object: introduced
+15. Subject: it, Relation: is, Object: where gradually introduced alongside Entry-Exit System
+16. Subject: you, Relation: are also exempt from, Object: 90-day limit
+17. Subject: world, Relation: has, Object: most powerful passport
+18. Subject: Air border, Relation: dropped for, Object: Schengen zone countries
+19. Subject: France, Relation: will install, Object: self-service kiosks
+20. Subject: similar system, Relation: be installed at, Object: airports
+21. Subject: devices, Relation: register, Object: your details
+22. Subject: tablet devices, Relation: register, Object: your details
+23. Subject: France, Relation: at, Object: land
+24. Subject: EES, Relation: Will cause, Object: border delays
+25. Subject: it, Relation: will cause disruption at, Object: borders
+26. Subject: EU, Relation: introduce, Object: digital barrier system
+27. Subject: it, Relation: will cause, Object: disruption
+28. Subject: travellers, Relation: is with, Object: EU residency
+29. Subject: themselves, Relation: caught up in, Object: delays
+30. Subject: sharp increase, Relation: is in, Object: process times
+31. Subject: process times, Relation: double compared to, Object: current situation
+32. Subject: Roissy-Charles de Gaulle Airport, Relation: north of, Object: Paris
+33. Subject: they, Relation: providing data compared to, Object: current passport checks
+34. Subject: association, Relation: according to, Object: director of public affairs
+35. Subject: association, Relation: 's director is, Object: Luke Petherbridge
+36. Subject: less space, Relation: accommodate, Object: travellers
+37. Subject: second homes, Relation: workers such as, Object: ski guides
+38. Subject: second homes, Relation: seasonal workers such as, Object: ski guides
+39. Subject: It, Relation: could cause reps., Object: problems
+40. Subject: Easter travel chaos, Relation: could hit, Object: Heathrow
+41. Subject: new laws, Relation: Will affect too, Object: tourists
+42. Subject: new laws, Relation: Will affect, Object: tourists
+43. Subject: EU countries, Relation: Will, Object: Will ready for EES
+44. Subject: EES, Relation: launch in, Object: May 2023
+45. Subject: ETIAS launch, Relation: has, Object: meanwhile has pushed from November to undefined date in 2024
+46. Subject: border wait times, Relation: rise as, Object: result
+47. Subject: websites, Relation: falsely charging, Object: additional administration fee
+48. Subject: travellers, Relation: only use, Object: official ETIAS site
+49. Subject: countries, Relation: is in, Object: Europe
+50. Subject: heat, Relation: impacting, Object: travellers
+51. Subject: Europe, Relation: on, Object: fastest train
+52. Subject: countries, Relation: is in, Object: Europe
+53. Subject: Croatia, Relation: has, Object: numbers
+54. Subject: Sicily, Relation: has, Object: airports struggle cope with increase in flights
+55. Subject: increase, Relation: is in, Object: flights

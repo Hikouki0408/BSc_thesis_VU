@@ -1,0 +1,63 @@
+1. Subject: driving, Relation: be, Object: silent
+2. Subject: Stas Verichev, Relation: co-founder of, Object: Vibrotwist
+3. Subject: Verichev, Relation: pushes, Object: it
+4. Subject: it, Relation: expand radially because of, Object: so-called Poisson effect
+5. Subject: pile, Relation: is, Object: when twisted
+6. Subject: piles, Relation: shaken into, Object: ground
+7. Subject: shockwaves, Relation: is in, Object: soil
+8. Subject: humans, Relation: is in, Object: nature reserves on land
+9. Subject: humans, Relation: is in, Object: urban settings
+10. Subject: Professor Metrikine, Relation: was, Object: Verichev 's supervisor
+11. Subject: Verichev, Relation: has, Object: supervisor during PhD at Civil Engineering
+12. Subject: his invention, Relation: is in, Object: field
+13. Subject: It, Relation: was, Object: eye-opening
+14. Subject: It, Relation: explains, Object: Verichev
+15. Subject: We, Relation: were, Object: gathered on Maasvlakte for very first full-scale demonstration
+16. Subject: audience, Relation: witnessing, Object: test
+17. Subject: it, Relation: drive piles so smoothly into, Object: ground
+18. Subject: someone, Relation: was, Object: needed
+19. Subject: someone, Relation: really bring forward, Object: it
+20. Subject: someone, Relation: really bring, Object: it
+21. Subject: Someone, Relation: is with, Object: combination of technological knowledge in field
+22. Subject: technological knowledge, Relation: is in, Object: field
+23. Subject: that, Relation: has, Object: you
+24. Subject: piles, Relation: taking, Object: them
+25. Subject: One example, Relation: are, Object: bubble screens
+26. Subject: example, Relation: are, Object: bubble screens
+27. Subject: Bubble screens, Relation: become, Object: less effective for longer waves
+28. Subject: it, Relation: mention because of, Object: flexibility in shaker 's control parameters
+29. Subject: shaker, Relation: in, Object: control parameters
+30. Subject: flexibility, Relation: is in, Object: shaker 's control parameters
+31. Subject: valuable resources, Relation: stuck in, Object: ground
+32. Subject: Resources, Relation: are, Object: scarce
+33. Subject: Resources, Relation: are, Object: increasingly scarce
+34. Subject: it, Relation: get piles out of, Object: ground
+35. Subject: upper part, Relation: leave rest in, Object: ground
+36. Subject: respective pile foundations, Relation: be, Object: decommissioned
+37. Subject: pile foundations, Relation: be, Object: decommissioned
+38. Subject: it, Relation: take out, Object: piles
+39. Subject: decommission, Relation: becomes, Object: mandatory
+40. Subject: circular economy, Relation: is, Object: definitely beneficial
+41. Subject: TU Delft, Relation: currently engaging in, Object: two projects
+42. Subject: it, Relation: is important to, Object: further test on type of soil too
+43. Subject: 4-6 meters, Relation: is in, Object: diameter
+44. Subject: Vibrotwist, Relation: will, Object: where will directly involved
+45. Subject: We, Relation: securing, Object: funding
+46. Subject: this, Relation: be, Object: first
+47. Subject: Vibrotwist, Relation: will, Object: where will involved
+48. Subject: it, Relation: has, Object: Traditionally conservative risk averse business
+49. Subject: it, Relation: has, Object: averse
+50. Subject: it, Relation: has, Object: conservative
+51. Subject: you, Relation: creating, Object: believers
+52. Subject: It, Relation: happened to, Object: me
+53. Subject: Faculty, Relation: supporting, Object: academics
+54. Subject: Faculty, Relation: supporting, Object: academics moving into entrepreneurial roles
+55. Subject: academics, Relation: moving into, Object: entrepreneurial roles
+56. Subject: Faculty, Relation: been, Object: massive
+57. Subject: NWO, Relation: been, Object: massive
+58. Subject: We, Relation: believe in, Object: power of collaboration
+59. Subject: TU Delft Campus, Relation: making, Object: meaningful connections with community of likeminded pioneers
+60. Subject: meaningful connections, Relation: is with, Object: community of likeminded pioneers
+61. Subject: June 29th, Relation: charts in, Object: 2023 Entrepreneurial Ecosystem Index June 19th
+62. Subject: 2023 Delft tops charts, Relation: is in, Object: 2023 Entrepreneurial Ecosystem Index June 19th
+63. Subject: collaboration, Relation: is with, Object: AMS Institute June 19th

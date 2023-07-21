@@ -8,6 +8,9 @@ import time
 import json
 import sys
 
+# run this code: java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
+# then run: python3 OIE_extracted_text.py on another terminal
+
 class MyHTMLParser(HTMLParser):
     
     def __init__(self):
@@ -33,6 +36,7 @@ class MyHTMLParser(HTMLParser):
     def extract_relations_from_text(self, text, instances):
         nlp = StanfordCoreNLP('http://localhost:9000')
         total_instances = len(instances)
+        unique_sets = set()
         count_matched = 0
         count_unexpected = 0
         output = nlp.annotate(text, properties={
@@ -41,52 +45,56 @@ class MyHTMLParser(HTMLParser):
             'openie.triple.strict': 'true',
             'openie.max_entailments_per_clause': '1'
         })
-        # Extract and print the relations
+        for instance in instances:
+            unique_sets.add((instance['Subject'], instance['Relation'], instance['Object']))
+
+        # Loop through the 'output' JSON data
         for sentence in output['sentences']:
             for triple in sentence['openie']:
                 subject = triple['subject']
                 relation = triple['relation']
                 obj = triple['object']
-                #print(f"Subject: {subject}, Relation: {relation}, Object: {obj}")
+                print(f"Subject: {subject}, Relation: {relation}, Object: {obj}")
                 
-        """
-                match_found = False
-                for instance in instances:
-                    if subject == instance['Subject'] and relation == instance['Relation'] and obj == instance['Object']:
-                        print("Match found in JSON file!")
-                        count_matched += 1
-                        match_found = True
-                        break
-
-                if not match_found:
+                # Check if the set is in the unique_sets set
+                if (subject, relation, obj) in unique_sets:
+                    print("Match found in Dataset!")
+                    count_matched += 1
+                else:
+                    print("Not found in Dataset!")
                     count_unexpected += 1
         
-        print(len(instances))
-        print(count_matched)
-        print(count_unexpected)
+        print()
+        print("Total_triples: ", len(instances))
+        print("Total_correct: ",count_matched)
+        print("Total_wrong: ", count_unexpected)
         TP = count_matched
         FN = total_instances - TP
-        print(FN)
         FP = count_unexpected
+        print("Total_failed: ", FN)
         Precision = TP / (TP + FP)
         Recall = TP / (TP + FN)
         F1_Score = 2 * (Precision * Recall) / (Precision + Recall)
         print("Precision is ", Precision)
         print("Recall is ", Recall)
         print("F1_score is ",F1_Score)
-        """
         
         
 
 
-with open('Datasets/dataset_ebook.json', 'r') as file:
+with open('Datasets/dataset_tudelft.json', 'r') as file:
     json_data = json.load(file)
     
 # Fetch the URL and pass the HTML content to the parser
-url = "https://www.gutenberg.org/cache/epub/27137/pg27137-images.html"
+url = "https://www.tudelftcampus.nl/time-to-shake-up-the-pile-driving-industry"
+
+# 1. https://en.wikipedia.org/wiki/Vrije_Universiteit_Amsterdam
+# 2. https://www.gutenberg.org/cache/epub/27137/pg27137-images.html
+# 3. https://stackoverflow.blog/2023/05/31/ceo-update-paving-the-road-forward-with-ai-and-community-at-the-center
+# 4. https://www.euronews.com/travel/2023/02/27/long-queues-and-scams-will-the-new-eu-entry-system-cause-border-chaos
+# 5. https://www.tudelftcampus.nl/time-to-shake-up-the-pile-driving-industry
 
 parser = MyHTMLParser()
-
 start_time = time.time()
 extracted_text = parser.extract_text_from_url(url)
 runtime_time_1 = time.time()

@@ -1,0 +1,85 @@
+1. Subject: community, Relation: deliver, Object: both
+2. Subject: center, Relation: is With, Object: significant changes in industry
+3. Subject: it, Relation: has, Object: aggressive
+4. Subject: shift, Relation: is in, Object: product strategy
+5. Subject: companies, Relation: are, Object: committed
+6. Subject: companies, Relation: driving efficiency throughout, Object: their organizations
+7. Subject: availability, Relation: is in, Object: Microsoft Azure marketplace
+8. Subject: Topic Collectives, Relation: Staging, Object: Ground Beta 2
+9. Subject: I, Relation: 'm, Object: excited
+10. Subject: Profitable growth, Relation: is, Object: new mantra
+11. Subject: Stack Overflow, Relation: is in, Object: particular
+12. Subject: We, Relation: evolve as, Object: organization
+13. Subject: revenue streams, Relation: using, Object: incremental capital
+14. Subject: revenue streams, Relation: using, Object: capital
+15. Subject: additional investment, Relation: is, Object: widely available
+16. Subject: This, Relation: is, Object: rational
+17. Subject: their actions, Relation: impact, Object: revenue
+18. Subject: company, Relation: continue, Object: growing
+19. Subject: This, Relation: is especially important for, Object: developers
+20. Subject: deals, Relation: fall entirely out of, Object: pipeline
+21. Subject: people, Relation: closer to, Object: their solution
+22. Subject: increase, Relation: is in, Object: productivity
+23. Subject: powerful way, Relation: is In, Object: dynamic world
+24. Subject: innovation, Relation: is, Object: powerful
+25. Subject: it, Relation: accelerates, Object: innovation
+26. Subject: we, Relation: incorporate, Object: GenAI
+27. Subject: we, Relation: incorporate GenAI into, Object: our products
+28. Subject: Stack Overflow, Relation: about, Object: future
+29. Subject: I, Relation: think about, Object: Stack Overflow 's future
+30. Subject: leverage, Relation: is in, Object: their everyday work
+31. Subject: GenAI, Relation: rise of is, Object: big opportunity for Stack
+32. Subject: rise, Relation: is, Object: big
+33. Subject: our, Relation: product, Object: Stack Overflow for Teams
+34. Subject: engagement, Relation: add, Object: value
+35. Subject: our SaaS product, Relation: Overflow for, Object: Teams
+36. Subject: our biggest champion, Relation: is in, Object: enterprise
+37. Subject: business cycle, Relation: of, Object: ups-and-downs
+38. Subject: we, Relation: remain, Object: insulated from worst of business cycle 's ups-and-downs
+39. Subject: we, Relation: insulated from, Object: worst of business cycle 's ups-and-downs
+40. Subject: GenAI, Relation: be, Object: competitive
+41. Subject: GenAI, Relation: be, Object: similar
+42. Subject: less time, Relation: crafting, Object: perfect title for their questions
+43. Subject: crafting, Relation: perfect title for, Object: their questions
+44. Subject: question askers, Relation: instead focus on, Object: content of question
+45. Subject: it, Relation: improve, Object: post
+46. Subject: question reviewers, Relation: better understand, Object: content of question
+47. Subject: we, Relation: launching in, Object: coming weeks
+48. Subject: their feedback, Relation: is, Object: critical
+49. Subject: our massive community, Relation: has contributed to, Object: to nearly 15 years
+50. Subject: we, Relation: invest back in, Object: our community
+51. Subject: interest, Relation: is in, Object: content
+52. Subject: our enterprise, Relation: version of, Object: Stack Overflow
+53. Subject: our, Relation: enterprise, Object: private version of Stack Overflow
+54. Subject: SMEs, Relation: review, Object: code
+55. Subject: SMEs, Relation: review, Object: complex code
+56. Subject: our SaaS solution, Relation: more easily accessible than, Object: ever before
+57. Subject: our partnership, Relation: is with, Object: Microsoft
+58. Subject: our relationship, Relation: is with, Object: Microsoft
+59. Subject: Teams, Relation: is in, Object: Azure Marketplace
+60. Subject: Stack Overflow, Relation: is in, Object: Azure Marketplace
+61. Subject: Stack Overflow customers, Relation: security of, Object: Azure
+62. Subject: our availability, Relation: is in, Object: Azure Marketplace
+63. Subject: availability, Relation: was, Object: exciting
+64. Subject: availability, Relation: was, Object: next
+65. Subject: individuals, Relation: find, Object: their place
+66. Subject: Beta 2, Relation: new UI among, Object: other improvements
+67. Subject: questions, Relation: approved in, Object: Staging Ground
+68. Subject: us, Relation: exposing, Object: them
+69. Subject: content, Relation: organized around, Object: specific area of interest
+70. Subject: I, Relation: announce, Object: our first two Topic Collectives
+71. Subject: I, Relation: 'm, Object: Now excited
+72. Subject: trust, Relation: is in, Object: data
+73. Subject: we, Relation: solved back in, Object: 2008
+74. Subject: Our evolution, Relation: is in, Object: offerings
+75. Subject: I, Relation: be excited about, Object: our future
+76. Subject: I, Relation: be, Object: excited
+77. Subject: Podcast, Relation: is, Object: weekly
+78. Subject: It, Relation: 's simply joined by, Object: dose of pragmatism
+79. Subject: we, Relation: build, Object: future of AI
+80. Subject: Bloomberg, Relation: has, Object: engineers
+81. Subject: company, Relation: has, Object: engineers
+82. Subject: Reply, Relation: Cancel, Object: reply Your email address
+83. Subject: site, Relation: reduce, Object: spam
+84. Subject: your comment data, Relation: is, Object: how processed
+85. Subject: your comment data, Relation: is, Object: processed

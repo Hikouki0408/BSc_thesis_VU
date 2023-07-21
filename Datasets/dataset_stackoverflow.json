@@ -1,0 +1,417 @@
+[
+    {
+        "Subject": "community",
+        "Relation": "deliver",
+        "Object": "both"
+    },
+    {
+        "Subject": "center",
+        "Relation": "is With",
+        "Object": "significant changes in industry"
+    },
+    {
+        "Subject": "it",
+        "Relation": "has",
+        "Object": "aggressive"
+    },
+    {
+        "Subject": "shift",
+        "Relation": "is in",
+        "Object": "product strategy"
+    },
+    {
+        "Subject": "companies",
+        "Relation": "are",
+        "Object": "committed"
+    },
+    {
+        "Subject": "companies",
+        "Relation": "driving efficiency throughout",
+        "Object": "their organizations"
+    },
+    {
+        "Subject": "availability",
+        "Relation": "is in",
+        "Object": "Microsoft Azure marketplace"
+    },
+    {
+        "Subject": "Topic Collectives",
+        "Relation": "Staging",
+        "Object": "Ground Beta 2"
+    },
+    {
+        "Subject": "I",
+        "Relation": "'m",
+        "Object": "excited"
+    },
+    {
+        "Subject": "Profitable growth",
+        "Relation": "is",
+        "Object": "new mantra"
+    },
+    {
+        "Subject": "Stack Overflow",
+        "Relation": "is in",
+        "Object": "particular"
+    },
+    {
+        "Subject": "We",
+        "Relation": "evolve as",
+        "Object": "organization"
+    },
+    {
+        "Subject": "revenue streams",
+        "Relation": "using",
+        "Object": "incremental capital"
+    },
+    {
+        "Subject": "revenue streams",
+        "Relation": "using",
+        "Object": "capital"
+    },
+    {
+        "Subject": "additional investment",
+        "Relation": "is",
+        "Object": "widely available"
+    },
+    {
+        "Subject": "This",
+        "Relation": "is",
+        "Object": "rational"
+    },
+    {
+        "Subject": "their actions",
+        "Relation": "impact",
+        "Object": "revenue"
+    },
+    {
+        "Subject": "company",
+        "Relation": "continue",
+        "Object": "growing"
+    },
+    {
+        "Subject": "This",
+        "Relation": "is especially important for",
+        "Object": "developers"
+    },
+    {
+        "Subject": "deals",
+        "Relation": "fall entirely out of",
+        "Object": "pipeline"
+    },
+    {
+        "Subject": "people",
+        "Relation": "closer to",
+        "Object": "their solution"
+    },
+    {
+        "Subject": "increase",
+        "Relation": "is in",
+        "Object": "productivity"
+    },
+    {
+        "Subject": "powerful way",
+        "Relation": "is In",
+        "Object": "dynamic world"
+    },
+    {
+        "Subject": "innovation",
+        "Relation": "is",
+        "Object": "powerful"
+    },
+    {
+        "Subject": "it",
+        "Relation": "accelerates",
+        "Object": "innovation"
+    },
+    {
+        "Subject": "we",
+        "Relation": "incorporate",
+        "Object": "GenAI"
+    },
+    {
+        "Subject": "we",
+        "Relation": "incorporate GenAI into",
+        "Object": "our products"
+    },
+    {
+        "Subject": "Stack Overflow",
+        "Relation": "about",
+        "Object": "future"
+    },
+    {
+        "Subject": "I",
+        "Relation": "think about",
+        "Object": "Stack Overflow 's future"
+    },
+    {
+        "Subject": "leverage",
+        "Relation": "is in",
+        "Object": "their everyday work"
+    },
+    {
+        "Subject": "GenAI",
+        "Relation": "rise of is",
+        "Object": "big opportunity for Stack"
+    },
+    {
+        "Subject": "rise",
+        "Relation": "is",
+        "Object": "big"
+    },
+    {
+        "Subject": "our",
+        "Relation": "product",
+        "Object": "Stack Overflow for Teams"
+    },
+    {
+        "Subject": "engagement",
+        "Relation": "add",
+        "Object": "value"
+    },
+    {
+        "Subject": "our SaaS product",
+        "Relation": "Overflow for",
+        "Object": "Teams"
+    },
+    {
+        "Subject": "our biggest champion",
+        "Relation": "is in",
+        "Object": "enterprise"
+    },
+    {
+        "Subject": "business cycle",
+        "Relation": "of",
+        "Object": "ups-and-downs"
+    },
+    {
+        "Subject": "we",
+        "Relation": "remain",
+        "Object": "insulated from worst of business cycle 's ups-and-downs"
+    },
+    {
+        "Subject": "we",
+        "Relation": "insulated from",
+        "Object": "worst of business cycle 's ups-and-downs"
+    },
+    {
+        "Subject": "GenAI",
+        "Relation": "be",
+        "Object": "competitive"
+    },
+    {
+        "Subject": "GenAI",
+        "Relation": "be",
+        "Object": "similar"
+    },
+    {
+        "Subject": "less time",
+        "Relation": "crafting",
+        "Object": "perfect title for their questions"
+    },
+    {
+        "Subject": "crafting",
+        "Relation": "perfect title for",
+        "Object": "their questions"
+    },
+    {
+        "Subject": "question askers",
+        "Relation": "instead focus on",
+        "Object": "content of question"
+    },
+    {
+        "Subject": "it",
+        "Relation": "improve",
+        "Object": "post"
+    },
+    {
+        "Subject": "question reviewers",
+        "Relation": "better understand",
+        "Object": "content of question"
+    },
+    {
+        "Subject": "we",
+        "Relation": "launching in",
+        "Object": "coming weeks"
+    },
+    {
+        "Subject": "their feedback",
+        "Relation": "is",
+        "Object": "critical"
+    },
+    {
+        "Subject": "our massive community",
+        "Relation": "has contributed to",
+        "Object": "to nearly 15 years"
+    },
+    {
+        "Subject": "we",
+        "Relation": "invest back in",
+        "Object": "our community"
+    },
+    {
+        "Subject": "interest",
+        "Relation": "is in",
+        "Object": "content"
+    },
+    {
+        "Subject": "our enterprise",
+        "Relation": "version of",
+        "Object": "Stack Overflow"
+    },
+    {
+        "Subject": "our",
+        "Relation": "enterprise",
+        "Object": "private version of Stack Overflow"
+    },
+    {
+        "Subject": "SMEs",
+        "Relation": "review",
+        "Object": "code"
+    },
+    {
+        "Subject": "SMEs",
+        "Relation": "review",
+        "Object": "complex code"
+    },
+    {
+        "Subject": "our SaaS solution",
+        "Relation": "more easily accessible than",
+        "Object": "ever before"
+    },
+    {
+        "Subject": "our partnership",
+        "Relation": "is with",
+        "Object": "Microsoft"
+    },
+    {
+        "Subject": "our relationship",
+        "Relation": "is with",
+        "Object": "Microsoft"
+    },
+    {
+        "Subject": "Teams",
+        "Relation": "is in",
+        "Object": "Azure Marketplace"
+    },
+    {
+        "Subject": "Stack Overflow",
+        "Relation": "is in",
+        "Object": "Azure Marketplace"
+    },
+    {
+        "Subject": "Stack Overflow customers",
+        "Relation": "security of",
+        "Object": "Azure"
+    },
+    {
+        "Subject": "our availability",
+        "Relation": "is in",
+        "Object": "Azure Marketplace"
+    },
+    {
+        "Subject": "availability",
+        "Relation": "was",
+        "Object": "exciting"
+    },
+    {
+        "Subject": "availability",
+        "Relation": "was",
+        "Object": "next"
+    },
+    {
+        "Subject": "individuals",
+        "Relation": "find",
+        "Object": "their place"
+    },
+    {
+        "Subject": "Beta 2",
+        "Relation": "new UI among",
+        "Object": "other improvements"
+    },
+    {
+        "Subject": "questions",
+        "Relation": "approved in",
+        "Object": "Staging Ground"
+    },
+    {
+        "Subject": "us",
+        "Relation": "exposing",
+        "Object": "them"
+    },
+    {
+        "Subject": "content",
+        "Relation": "organized around",
+        "Object": "specific area of interest"
+    },
+    {
+        "Subject": "I",
+        "Relation": "announce",
+        "Object": "our first two Topic Collectives"
+    },
+    {
+        "Subject": "I",
+        "Relation": "'m",
+        "Object": "Now excited"
+    },
+    {
+        "Subject": "trust",
+        "Relation": "is in",
+        "Object": "data"
+    },
+    {
+        "Subject": "we",
+        "Relation": "solved back in",
+        "Object": "2008"
+    },
+    {
+        "Subject": "Our evolution",
+        "Relation": "is in",
+        "Object": "offerings"
+    },
+    {
+        "Subject": "I",
+        "Relation": "be excited about",
+        "Object": "our future"
+    },
+    {
+        "Subject": "I",
+        "Relation": "be",
+        "Object": "excited"
+    },
+    {
+        "Subject": "Podcast",
+        "Relation": "is",
+        "Object": "weekly"
+    },
+    {
+        "Subject": "It",
+        "Relation": "'s simply joined by",
+        "Object": "dose of pragmatism"
+    },
+    {
+        "Subject": "we",
+        "Relation": "build",
+        "Object": "future of AI"
+    },
+    {
+        "Subject": "Bloomberg",
+        "Relation": "has",
+        "Object": "engineers"
+    },
+    {
+        "Subject": "company",
+        "Relation": "has",
+        "Object": "engineers"
+    },
+    {
+        "Subject": "Reply",
+        "Relation": "Cancel",
+        "Object": "reply Your email address"
+    },
+    {
+        "Subject": "site",
+        "Relation": "reduce",
+        "Object": "spam"
+    }
+]
