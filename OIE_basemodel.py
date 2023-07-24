@@ -54,6 +54,7 @@ class MyHTMLParser(HTMLParser):
                 subject = triple['subject']
                 relation = triple['relation']
                 obj = triple['object']
+                """
                 print(f"Subject: {subject}, Relation: {relation}, Object: {obj}")
                 
                 # Check if the set is in the unique_sets set
@@ -78,21 +79,26 @@ class MyHTMLParser(HTMLParser):
         print("Precision is ", Precision)
         print("Recall is ", Recall)
         print("F1_score is ",F1_Score)
-        
+        """
         
 
 
-with open('Datasets/dataset_tudelft.json', 'r') as file:
+with open('Datasets/dataset_wiki.json', 'r') as file:
     json_data = json.load(file)
     
 # Fetch the URL and pass the HTML content to the parser
-url = "https://www.tudelftcampus.nl/time-to-shake-up-the-pile-driving-industry"
+url = "https://theluxurytravelexpert.com/2020/12/14/best-hotels-in-the-world"
 
 # 1. https://en.wikipedia.org/wiki/Vrije_Universiteit_Amsterdam
-# 2. https://www.gutenberg.org/cache/epub/27137/pg27137-images.html
-# 3. https://stackoverflow.blog/2023/05/31/ceo-update-paving-the-road-forward-with-ai-and-community-at-the-center
-# 4. https://www.euronews.com/travel/2023/02/27/long-queues-and-scams-will-the-new-eu-entry-system-cause-border-chaos
-# 5. https://www.tudelftcampus.nl/time-to-shake-up-the-pile-driving-industry
+# 2. https://stackoverflow.blog/2023/05/31/ceo-update-paving-the-road-forward-with-ai-and-community-at-the-center
+# 3. https://www.euronews.com/travel/2023/02/27/long-queues-and-scams-will-the-new-eu-entry-system-cause-border-chaos
+# 4. https://www.tudelftcampus.nl/time-to-shake-up-the-pile-driving-industry
+# 5. https://hackr.io/blog/what-is-programming
+# 6. https://www.amsterdamfoodie.nl/amsterdam-food-guide/indonesian-restaurants-in-amsterdam-rijsttafel
+# 7. https://www.engadget.com/best-android-phone-130030805.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAMJRC35y42RkEpGFN410RsxpbKvMCO1YlLmbtdzQ8pV8l3LRZ5sWPGJQYf-yEwX7vimbG2qzSJYMbpZ545Hz3cup5XB1qlkb203T1mVAKhmOteZxYDxKoohpFTWRvo-M8MzqByHFRBN4-odKGhQEche2Zb-GXjopL6cIZsxeIuLl
+# 8. https://www.hotcars.com/upcoming-cars-worth-waiting-for/#2023-fisker-ocean
+# 9. https://research.ibm.com/blog/utility-toward-useful-quantum
+# 10 https://theluxurytravelexpert.com/2020/12/14/best-hotels-in-the-world
 
 parser = MyHTMLParser()
 start_time = time.time()

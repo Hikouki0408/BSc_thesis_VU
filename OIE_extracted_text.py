@@ -5,6 +5,7 @@ from pycorenlp import StanfordCoreNLP
 import time
 import json
 import sys
+from selenium import webdriver
 
 
 # make sure to have openie-assembly-5.0-SNAPSHOT.jar in the same folder
@@ -12,11 +13,13 @@ import sys
 # then run: python3 OIE_extracted_text.py on another terminal
 
 class MyHTMLParser(HTMLParser):
-
     def __init__(self):
         super().__init__()
+        self.inside_head_tag = False
         self.inside_body_tag = False
-        self.skip_tag = False
+        self.skip_tag_body = False
+        self.select_tag_head = False
+        self.extract_script = False
         self.tag_stack = []
         self.email_pattern = re.compile(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b')
         self.url_pattern = re.compile(r'^(?:https?://|www\.)\S+\.[a-zA-Z]{2,}(?:[/?#]\S*)?$')
@@ -24,25 +27,84 @@ class MyHTMLParser(HTMLParser):
         self.text = ""
 
     def handle_starttag(self, tag, attrs):
+        if tag == "head":
+            self.inside_head_tag = True
         if tag == "body":
             self.inside_body_tag = True
         self.tag_stack.append(tag)
-        if tag in ["script", "style", "image", "iframe", "button", "label", "footer", "nav"]: # run both with "script" and without it for a comparison
-            self.skip_tag = True
+        if tag in ["title"]:
+            self.select_tag_head = True
+        if tag in ["script"]:
+            self.extract_script = True
+        if tag in ["style", "iframe", "svg", "form", "button", "footer", "nav"]:
+            self.skip_tag_body = True
 
     def handle_endtag(self, tag):
+        if tag == "head":
+            self.inside_head_tag = False
         if tag == "body":
             self.inside_body_tag = False
-        if tag in ["script", "style", "image", "iframe", "button", "label", "footer", "nav"]: 
-            self.skip_tag = False
+        #if tag in ["script", "style", "image", "iframe", "button", "label", "nav", "footer"]:
+        if tag in ["title"]:
+            self.select_tag_head = False
+        if tag in ["script"]:
+            self.extract_script = False
+        if tag in ["style", "iframe", "svg", "form", "button", "footer", "nav"]:
+            self.skip_tag_body = False
         self.tag_stack.pop()
+    
+    def execute_javascript_code(self, script_code):
+            # Set Chrome options
+        options = webdriver.ChromeOptions()
+        options.add_argument("--headless")
+        
+        # Create a new instance of the Chrome browser
+        driver = webdriver.Chrome(options=options)
+        
+        driver.get('data:text/html;charset=utf-8,<!DOCTYPE html><html><head></head><body></body></html>')
+
+        try:
+            driver.execute_script(script_code)
+                # Extract the dynamically generated text displayed on the browser
+            script_extract_text = '''
+                var elements = document.querySelectorAll('body > *');
+                var texts = "";
+                elements.forEach(function(element) {
+                    texts += element.textContent + " ";
+                });
+                return texts.trim();
+            '''
+            extracted_text = driver.execute_script(script_extract_text)
+            # Close the browser
+            driver.quit()
+
+            return extracted_text
+
+        except Exception as e:
+            # If there's an error, print the error message or return an empty string
+            return ''
 
     def handle_data(self, data):
         message = ''
         label = "undefined"
+        if self.inside_head_tag:
+            if self.select_tag_head and data.strip():
+                self.text += data.strip() + ". "
+            elif self.extract_script:
+                script_code = data.strip()
+                extracted_content = self.execute_javascript_code(script_code)
+                if extracted_content:
+                    self.text += extracted_content + " "
         if self.inside_body_tag:
-            if not self.skip_tag and data.strip():
+            if not self.skip_tag_body and data.strip():
                 tag = self.tag_stack[-1] if self.tag_stack else None
+                if self.extract_script:
+                    script_code = data.strip()
+                    extracted_content = self.execute_javascript_code(script_code)
+                    if extracted_content:
+                        data = extracted_content
+                    else:
+                        data = ''
                 if re.search(self.email_pattern, data) and not any(char.isspace() for char in data.strip()):
                     label = "Email"
                     message = f"{label}: [{data.strip()}] (tag: {tag})"
@@ -56,6 +118,8 @@ class MyHTMLParser(HTMLParser):
                     label = "Puretext" # text that are examined by relation extraction model
                     message = f"{label}: [{data.strip()}] (tag: {tag})"
                     self.text += data.strip() + " "
+        #if message:
+            #print(message)
 
     def extract_relations_from_text(self, instances):
         nlp = StanfordCoreNLP('http://localhost:9000')
@@ -73,7 +137,6 @@ class MyHTMLParser(HTMLParser):
         for instance in instances:
             unique_sets.add((instance['Subject'], instance['Relation'], instance['Object']))
 
-        # Loop through the 'output' JSON data
         for sentence in output['sentences']:
             for triple in sentence['openie']:
                 subject = triple['subject']
@@ -81,6 +144,7 @@ class MyHTMLParser(HTMLParser):
                 obj = triple['object']
                 
                 print(f"Subject: {subject}, Relation: {relation}, Object: {obj}")
+                
                 # Check if the set is in the unique_sets set
                 if (subject, relation, obj) in unique_sets:
                     print("Match found in Dataset!")
@@ -102,13 +166,15 @@ class MyHTMLParser(HTMLParser):
         F1_Score = 2 * (Precision * Recall) / (Precision + Recall)
         print("Precision is ", Precision)
         print("Recall is ", Recall)
-        print("F1_score is ",F1_Score)  
+        print("F1_score is ",F1_Score)
+        
+ 
                 
-with open('Datasets/dataset_tudelft.json', 'r') as file:
+with open('Datasets/dataset_stackoverflow.json', 'r') as file:
     json_data = json.load(file)
     
 # Fetch the URL and pass the HTML content to the parser
-url = "https://www.tudelftcampus.nl/time-to-shake-up-the-pile-driving-industry"
+url = "https://stackoverflow.blog/2023/05/31/ceo-update-paving-the-road-forward-with-ai-and-community-at-the-center"
 response = request.urlopen(url)
 html_content = response.read().decode('utf-8')
 parser = MyHTMLParser()
@@ -126,10 +192,15 @@ print("Size of the text:", text_size, "bytes")
 
 
 # 1. https://en.wikipedia.org/wiki/Vrije_Universiteit_Amsterdam
-# 2. https://www.gutenberg.org/cache/epub/27137/pg27137-images.html
+# 2  https://www.tudelftcampus.nl/time-to-shake-up-the-pile-driving-industry
 # 3. https://stackoverflow.blog/2023/05/31/ceo-update-paving-the-road-forward-with-ai-and-community-at-the-center
 # 4. https://www.euronews.com/travel/2023/02/27/long-queues-and-scams-will-the-new-eu-entry-system-cause-border-chaos
-# 5. https://www.tudelftcampus.nl/time-to-shake-up-the-pile-driving-industry
 
+# 5. https://hackr.io/blog/what-is-programming
+# 6. https://www.amsterdamfoodie.nl/amsterdam-food-guide/indonesian-restaurants-in-amsterdam-rijsttafel
+# 7. https://www.engadget.com/best-android-phone-130030805.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAMJRC35y42RkEpGFN410RsxpbKvMCO1YlLmbtdzQ8pV8l3LRZ5sWPGJQYf-yEwX7vimbG2qzSJYMbpZ545Hz3cup5XB1qlkb203T1mVAKhmOteZxYDxKoohpFTWRvo-M8MzqByHFRBN4-odKGhQEche2Zb-GXjopL6cIZsxeIuLl
+# 8. https://www.hotcars.com/upcoming-cars-worth-waiting-for/#2023-fisker-ocean
+# 9. https://research.ibm.com/blog/utility-toward-useful-quantum
+# 10. https://theluxurytravelexpert.com/2020/12/14/best-hotels-in-the-world
 
 
