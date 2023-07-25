@@ -1,7 +1,7 @@
 import json
 
 # Read the subjects from the text file
-with open('triples_tudelft.txt', 'r') as file:
+with open('triples_engadget.txt', 'r') as file:
     subjects = file.read().splitlines()
 
 # Create a list to store the subject instances
@@ -18,5 +18,5 @@ for subject in subjects:
     subject_instances.append(subject_instance)
 
 # Save the subject instances to a JSON file
-with open('dataset_tudelft.json', 'w') as file:
+with open('dataset_engadget.json', 'w') as file:
     json.dump(subject_instances, file, indent=4)

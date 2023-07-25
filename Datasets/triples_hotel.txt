@@ -1,0 +1,154 @@
+1. Subject: Top 10 best hotels, Relation: is in, Object: world
+2. Subject: Top 10 fabulous hotels, Relation: is in, Object: Maldives
+3. Subject: luxury hotels, Relation: is with, Object: Virtuoso Travel tips
+4. Subject: Top 10 best hotels, Relation: is in, Object: world
+5. Subject: your favorite hotel, Relation: is in, Object: world
+6. Subject: It, Relation: answer, Object: question
+7. Subject: world, Relation: of, Object: most beautiful luxury hotels
+8. Subject: more information, Relation: is with, Object: reviews
+9. Subject: your favorite hotel, Relation: is in, Object: world
+10. Subject: comment, Relation: take below, Object: my poll
+11. Subject: yourself, Relation: sole inhabitant of, Object: beautiful tropical island
+12. Subject: hideaway, Relation: is, Object: barefoot
+13. Subject: hideaway, Relation: is, Object: award-winning
+14. Subject: scuba diver, Relation: has, Object: delight
+15. Subject: Mnemba atoll, Relation: delight 's, Object: scuba diver
+16. Subject: Beyond Mnemba Island, Relation: has, Object: something for everyone
+17. Subject: Beyond Mnemba Island, Relation: something for, Object: everyone
+18. Subject: massages, Relation: is in, Object: beach
+19. Subject: Beyond Mnemba Island, Relation: has, Object: something
+20. Subject: stunning resorts, Relation: is in, Object: Zanzibar
+21. Subject: Africa, Relation: has, Object: most astonishing beach retreats Review
+22. Subject: my top 10 lists, Relation: resorts in, Object: Zanzibar
+23. Subject: my top 10 lists, Relation: hotels in, Object: Tanzania
+24. Subject: my, Relation: lists, Object: best luxury hotels in Tanzania
+25. Subject: best luxury hotels, Relation: is in, Object: Tanzania
+26. Subject: exclusive private island retreats, Relation: of lists is, Object: best luxury hotels in Tanzania
+27. Subject: exclusive private island retreats, Relation: of lists is, Object: most stunning resorts in Zanzibar
+28. Subject: exclusive private island retreats, Relation: is in, Object: world
+29. Subject: Beyond Mnemba Island, Relation: also features in, Object: most stunning resorts in Zanzibar
+30. Subject: my, Relation: lists, Object: most stunning resorts in Zanzibar
+31. Subject: Italy, Relation: of, Object: Amalfi Coast
+32. Subject: luxury hotel, Relation: Located at, Object: highest quietest point of Ravello
+33. Subject: intimate retreat, Relation: is with, Object: intriguing sense of history
+34. Subject: intimate retreat, Relation: is With, Object: frescoed salons
+35. Subject: it, Relation: is, Object: intimate
+36. Subject: sunlit, Relation: is in, Object: Belvedere Restaurant
+37. Subject: world, Relation: of, Object: most spectacular infinity pools
+38. Subject: world, Relation: has, Object: most stunning hotel pools
+39. Subject: my, Relation: lists, Object: most spectacular cliffside luxury hotels
+40. Subject: world, Relation: has, Object: most spectacular cliffside luxury hotels
+41. Subject: top 10 lists, Relation: hotels 's, Object: world
+42. Subject: best luxury hotels, Relation: of lists is, Object: world 's most spectacular cliffside luxury hotels
+43. Subject: best luxury hotels, Relation: is in, Object: Italy
+44. Subject: Bay, Relation: is, Object: ultra-luxurious
+45. Subject: Bay, Relation: is, Object: located
+46. Subject: Oman, Relation: on, Object: northern Musandam Peninsula
+47. Subject: ultra-luxurious hidden gem located, Relation: journey from, Object: Dubai
+48. Subject: Bay, Relation: is, Object: hidden
+49. Subject: setting, Relation: is with, Object: its private marina
+50. Subject: Hotel website, Relation: Senses, Object: Zighy Bay
+51. Subject: Hotel website Six, Relation: Senses, Object: Zighy Bay
+52. Subject: Oman, Relation: experiences 's, Object: world
+53. Subject: upgrade, Relation: massage for, Object: two people
+54. Subject: Oman, Relation: hotels 's, Object: world
+55. Subject: world, Relation: has, Object: most amazing beach hotels
+56. Subject: world, Relation: has, Object: most over-the-top hotel experiences
+57. Subject: best luxury hotels, Relation: is in, Object: Oman
+58. Subject: best health spas, Relation: is in, Object: world
+59. Subject: Oman, Relation: spas in, Object: world
+60. Subject: Zighy Bay, Relation: read, Object: my review of Six
+61. Subject: Zighy Bay, Relation: read, Object: my review
+62. Subject: Royal Malewane, Relation: is, Object: luxury safari lodge with several one to six-bedroom villas located in Thornybush private game reserve on western border of Kruger National Park
+63. Subject: country, Relation: has, Object: most qualified guiding team
+64. Subject: Royal Malewane, Relation: of, Object: Bush Spa
+65. Subject: best luxury hotels, Relation: is in, Object: South Africa
+66. Subject: beautiful safari lodges, Relation: is in, Object: Africa
+67. Subject: exclusive safari lodges, Relation: is in, Object: South Africa Tip
+68. Subject: Adriatic pirates, Relation: sway over, Object: crystal-clear coastline
+69. Subject: Montenegro, Relation: island of, Object: Sveti Stefan
+70. Subject: provides, Relation: unparalleled access to, Object: UNESCO World Heritage Site
+71. Subject: Kotor, Relation: of Bay is, Object: UNESCO World Heritage Site
+72. Subject: beaches, Relation: of kilometers is, Object: 1,3 miles
+73. Subject: resort, Relation: has, Object: interiors
+74. Subject: resort 's interiors, Relation: meet, Object: contemporary expectations
+75. Subject: island, Relation: has, Object: historic exterior
+76. Subject: my favorite Aman resorts, Relation: is in, Object: world
+77. Subject: Europe, Relation: has, Object: most astonishing beach retreats Tip
+78. Subject: Soneva Fushi, Relation: hideaway ', Object: Robinson Crusoe
+79. Subject: Soneva Fushi, Relation: hideaway in, Object: Maldives
+80. Subject: first Robinson Crusoe ' style hideaway, Relation: is in, Object: Maldives
+81. Subject: largest islands, Relation: is in, Object: Maldives
+82. Subject: island, Relation: has, Object: unusually rich vegetation
+83. Subject: residences, Relation: are hidden among, Object: dense tropical foliage
+84. Subject: many, Relation: resemble, Object: tree houses
+85. Subject: many, Relation: keeping with, Object: castaway theme
+86. Subject: Intuitive service, Relation: is, Object: provided
+87. Subject: best resorts, Relation: is in, Object: Maldives
+88. Subject: best hotels, Relation: is in, Object: Maldives
+89. Subject: Maldives, Relation: hotels in, Object: world
+90. Subject: world, Relation: has, Object: most insanely beautiful hotel beaches Tip
+91. Subject: best family hotels, Relation: is in, Object: world
+92. Subject: Asia, Relation: resorts for, Object: snorkeling
+93. Subject: Asia, Relation: resorts in, Object: Maldives
+94. Subject: astonishing beach retreats, Relation: is in, Object: Asia
+95. Subject: Miavana, Relation: is, Object: luxurious
+96. Subject: Miavana, Relation: is, Object: located
+97. Subject: Indian Ocean, Relation: has, Object: spectacular maritime wonders
+98. Subject: island, Relation: along, Object: western pure white beaches
+99. Subject: Miavana, Relation: has, Object: palatial villas
+100. Subject: resort 's guides, Relation: mosaic of, Object: unexplored coves
+101. Subject: resort, Relation: has, Object: guides
+102. Subject: located luxury hotels, Relation: is in, Object: world
+103. Subject: Thailand, Relation: 's island is, Object: Koh Kood
+104. Subject: Thailand, Relation: on, Object: 4th largest island
+105. Subject: resort, Relation: on, Object: private plane
+106. Subject: exclusive resorts, Relation: is in, Object: world
+107. Subject: luxury, Relation: of combination is, Object: authentic Thai experiences
+108. Subject: idyllic beach, Relation: is in, Object: rainforest
+109. Subject: open air cinema Paradiso, Relation: den 's, Object: children
+110. Subject: children, Relation: has, Object: den
+111. Subject: best private plunge pools, Relation: is in, Object: world
+112. Subject: world, Relation: has, Object: most beautiful hotel beaches
+113. Subject: Thailand, Relation: beaches 's, Object: world
+114. Subject: world, Relation: has, Object: best family hotels
+115. Subject: luxury hotels, Relation: is with, Object: private airports Tip
+116. Subject: Thailand, Relation: hotels 's, Object: world
+117. Subject: Thailand, Relation: hotels 's, Object: world
+118. Subject: Thailand, Relation: hotels 's, Object: world
+119. Subject: world, Relation: has, Object: most outrageous hotel experiences
+120. Subject: welcome Champagne, Relation: is with, Object: Thai tapas
+121. Subject: Thailand, Relation: resorts 's, Object: world
+122. Subject: beautiful hotels, Relation: is in, Object: Thailand
+123. Subject: world, Relation: has, Object: most remote hotels
+124. Subject: Thailand, Relation: experiences 's, Object: world
+125. Subject: world, Relation: has, Object: most amazing beach resorts
+126. Subject: world, Relation: has, Object: best luxury hotels
+127. Subject: Thailand, Relation: pools in, Object: world
+128. Subject: astonishing beach retreats, Relation: is in, Object: Asia
+129. Subject: world, Relation: as, Object: most exclusive hideaway
+130. Subject: North Island, Relation: has, Object: reputation as world 's most exclusive hideaway
+131. Subject: island, Relation: has, Object: lounge
+132. Subject: Brutus, Relation: tortoise 's, Object: island
+133. Subject: island, Relation: has, Object: 160-year-old tortoise
+134. Subject: Prince William, Relation: Dutchess of, Object: Cambridge
+135. Subject: decor, Relation: is in, Object: 2011
+136. Subject: Africa, Relation: has, Object: most astonishing beach retreats Review
+137. Subject: world, Relation: has, Object: most exclusive private island resorts
+138. Subject: best resorts, Relation: is in, Object: Seychelles
+139. Subject: Seychelles, Relation: resorts 's, Object: world
+140. Subject: Seychelles, Relation: resorts 's, Object: world
+141. Subject: world, Relation: has, Object: most expensive hotels
+142. Subject: world, Relation: has, Object: best honeymoon resorts
+143. Subject: Seychelles, Relation: hotels 's, Object: world
+144. Subject: wisdom, Relation: is in, Object: Sanskrit
+145. Subject: uninhabited five-island cluster, Relation: is in, Object: Noonu Atoll
+146. Subject: Maldives, Relation: ', Object: hotel
+147. Subject: my favorite hotel, Relation: is in, Object: world
+148. Subject: slides, Relation: going directly from, Object: top deck into lagoon below
+149. Subject: retractable roof, Relation: is in, Object: master bedroom
+150. Subject: Maldives, Relation: retreats in, Object: Asia
+151. Subject: my favorite hotels, Relation: is in, Object: world Review
+152. Subject: fabulous overwater villas, Relation: is in, Object: Maldives
+153. Subject: beautiful resorts, Relation: is in, Object: Maldives
+154. Subject: astonishing beach retreats, Relation: is in, Object: Asia

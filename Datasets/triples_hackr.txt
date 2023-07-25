@@ -1,0 +1,62 @@
+1. Subject: programming, Relation: is used for, Object: '
+2. Subject: you, Relation: answer, Object: question
+3. Subject: Programming, Relation: instructing, Object: computers
+4. Subject: It, Relation: be, Object: simple
+5. Subject: first computer program creator, Relation: is with, Object: algorithm calculate
+6. Subject: Lovelace, Relation: wrote, Object: her algorithm for device
+7. Subject: It, Relation: was, Object: primitive
+8. Subject: It, Relation: was, Object: mechanical
+9. Subject: This, Relation: is done with, Object: programming languages
+10. Subject: we, Relation: programming, Object: languages
+11. Subject: computer, Relation: by, Object: CPU
+12. Subject: transistors, Relation: switches with, Object: two options on
+13. Subject: tiny electric switches, Relation: is with, Object: two options on
+14. Subject: computer 's CPU, Relation: create, Object: desired output
+15. Subject: computer, Relation: has, Object: CPU
+16. Subject: machine code, Relation: is, Object: In general referred to as low-level language
+17. Subject: code, Relation: using, Object: binary digits
+18. Subject: programmers, Relation: translate assembly language into, Object: machine code
+19. Subject: assembly language, Relation: can, Object: Like machine code can also referred to as low-level language
+20. Subject: it, Relation: bundle together, Object: all
+21. Subject: computer system, Relation: to, Object: abstraction layer
+22. Subject: Complete Python Bootcamp, Relation: is in, Object: Python Mid-level languages
+23. Subject: computers, Relation: execute, Object: code
+24. Subject: computers, Relation: execute, Object: code logic
+25. Subject: programming, Relation: being, Object: used
+26. Subject: computers, Relation: execute, Object: it
+27. Subject: programming, Relation: creating, Object: elements
+28. Subject: programming, Relation: creating, Object: broader elements
+29. Subject: your device, Relation: display, Object: it
+30. Subject: example, Relation: is power of, Object: instant messaging applications
+31. Subject: it, Relation: have delivered in, Object: minutes
+32. Subject: you, Relation: order, Object: food
+33. Subject: Computers, Relation: can work, Object: 24/7
+34. Subject: you, Relation: handle, Object: tasks
+35. Subject: its, Relation: core, Object: programming
+36. Subject: you, Relation: think through, Object: problems
+37. Subject: you, Relation: improve, Object: your skills
+38. Subject: you, Relation: improve, Object: your analytical skills
+39. Subject: Creating computer programs, Relation: consider, Object: solutions
+40. Subject: It, Relation: has, Object: possible
+41. Subject: you, Relation: ensure, Object: smooth learning journey
+42. Subject: you, Relation: learning, Object: programming
+43. Subject: you, Relation: learn to, Object: program
+44. Subject: You, Relation: switch, Object: careers
+45. Subject: You, Relation: build, Object: passion project
+46. Subject: You, Relation: learn as, Object: hobby
+47. Subject: it, Relation: has, Object: better
+48. Subject: it, Relation: pick, Object: one
+49. Subject: online course, Relation: reading, Object: book
+50. Subject: choose, Relation: best option for, Object: you
+51. Subject: It, Relation: has, Object: fun
+52. Subject: Learning, Relation: be, Object: can hard
+53. Subject: you, Relation: community of, Object: like-minded learners
+54. Subject: programmers, Relation: is with, Object: more experience than you
+55. Subject: programming, Relation: is, Object: huge
+56. Subject: programming, Relation: is in, Object: simple words
+57. Subject: It, Relation: maximize, Object: power of computers
+58. Subject: Programming, Relation: allows, Object: us
+59. Subject: problems, Relation: is with, Object: computers
+60. Subject: Visual Studio Code, Relation: like IDE is, Object: Integrated Development Environment
+61. Subject: various software pieces, Relation: some of, Object: most essential IDE like Visual Studio Code
+62. Subject: additional processes, Relation: identifying, Object: program requirements

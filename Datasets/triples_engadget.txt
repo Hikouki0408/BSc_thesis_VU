@@ -1,0 +1,52 @@
+1. Subject: we, Relation: have, Object: picks for price range
+2. Subject: we, Relation: picks for, Object: price range
+3. Subject: Sam Rutherford, Relation: @samrutherford, Object: July 6 2023 1:28 PM
+4. Subject: Apple, Relation: is, Object: where only game in town
+5. Subject: only game, Relation: is in, Object: town
+6. Subject: it, Relation: picking, Object: our Android phones
+7. Subject: it, Relation: picking, Object: our favorite Android phones
+8. Subject: phones, Relation: based on, Object: responsiveness
+9. Subject: we, Relation: also evaluate, Object: phones based on responsiveness
+10. Subject: we, Relation: also evaluate, Object: phones
+11. Subject: it, Relation: comes to, Object: displays
+12. Subject: sharp colorful shots, Relation: is in, Object: bright conditions
+13. Subject: video clips, Relation: is with, Object: high dynamic range
+14. Subject: It, Relation: support for, Object: various video recording resolutions
+15. Subject: It, Relation: consider, Object: features like dedicated night modes
+16. Subject: they, Relation: make up with, Object: with thoughtful software
+17. Subject: they, Relation: make up for, Object: for thoughtful software
+18. Subject: Google, Relation: to, Object: Tensor G2 chip
+19. Subject: value, Relation: is with, Object: price tag of standard Pixel 7 starting at 600
+20. Subject: flagship, Relation: is, Object: incredible
+21. Subject: Google, Relation: has, Object: latest flagship
+22. Subject: Pixel 7 Pro, Relation: features, Object: third rear camera with 5x optical zoom
+23. Subject: features, Relation: third rear camera with, Object: 5x optical zoom
+24. Subject: third rear camera, Relation: is with, Object: 5x optical zoom
+25. Subject: phone, Relation: is with, Object: big screen
+26. Subject: Amazon 700, Relation: at 650 is, Object: excellent cameras
+27. Subject: OnePlus, Relation: at 650 is, Object: excellent cameras
+28. Subject: phone, Relation: is with, Object: big screen
+29. Subject: OnePlus, Relation: is, Object: affordable
+30. Subject: company 's ongoing partnership, Relation: is with, Object: Hasselblad
+31. Subject: notable improvements, Relation: is in, Object: image quality
+32. Subject: company, Relation: has, Object: ongoing partnership with Hasselblad
+33. Subject: camera 's 2x optical zoom lens, Relation: feels, Object: bit on short side
+34. Subject: camera, Relation: has, Object: 2x optical zoom lens
+35. Subject: camera 's 2x optical zoom lens, Relation: bit on, Object: short side
+36. Subject: OP11, Relation: is, Object: well-equipped
+37. Subject: you, Relation: simple phone for, Object: good price
+38. Subject: Google, Relation: has, Object: Pixel 7a
+39. Subject: Google, Relation: of, Object: A-series phones
+40. Subject: refreshed design, Relation: is with, Object: IP67 water resistance
+41. Subject: Pixel 7a, Relation: has, Object: only shortcomings
+42. Subject: huge 6.8-inch OLED display, Relation: is with, Object: 120Hz adaptive refresh rate
+43. Subject: we, Relation: 've seen on, Object: phone
+44. Subject: Samsung, Relation: with, Object: renewed commitment to software support
+45. Subject: Samsung, Relation: has, Object: Z fold 4
+46. Subject: three devices, Relation: is in, Object: one
+47. Subject: three devices, Relation: is in, Object: one
+48. Subject: movie, Relation: play, Object: game
+49. Subject: Samsung, Relation: of, Object: S Pens designed specifically for Fold
+50. Subject: it, Relation: has, Object: Sure bit
+51. Subject: Samsung phone, Relation: 's ability is, Object: tablet
+52. Subject: Samsung phone, Relation: has, Object: ability serve as phone

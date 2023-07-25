@@ -1,0 +1,98 @@
+1. Subject: 12 Indonesian Restaurants, Relation: is in, Object: Amsterdam
+2. Subject: Indonesian restaurants, Relation: is in, Object: Amsterdam
+3. Subject: it, Relation: has, Object: great
+4. Subject: locals, Relation: is in, Object: Indonesia
+5. Subject: rijsttafels, Relation: locals in, Object: Indonesia
+6. Subject: vegetables, Relation: is in, Object: peanut sauce
+7. Subject: boiled eggs, Relation: is in, Object: spicy sauces
+8. Subject: Indonesian restaurants, Relation: is in, Object: Amsterdam
+9. Subject: proper sit-down meal, Relation: is with, Object: wine
+10. Subject: rijsttafel, Relation: is in, Object: Amsterdam Blauw
+11. Subject: new team, Relation: is in, Object: place
+12. Subject: fish mousse, Relation: is with, Object: spicy
+13. Subject: you, Relation: have, Object: room
+14. Subject: Blauw, Relation: has, Object: grand dessert
+15. Subject: it, Relation: 's on, Object: Utrechtsestraat
+16. Subject: flowing, Relation: carafes of, Object: house wine
+17. Subject: they, Relation: were, Object: happy
+18. Subject: eyes, Relation: might water, Object: little
+19. Subject: it, Relation: come by in, Object: gathering of list
+20. Subject: that, Relation: has, Object: good
+21. Subject: It, Relation: pick out, Object: favourite dishes
+22. Subject: It, Relation: pick out, Object: dishes
+23. Subject: tujuhmaret.nl Tujuh Maret, Relation: has, Object: spicy rijsttafel
+24. Subject: series, Relation: is in, Object: Amsterdam
+25. Subject: sauces, Relation: spicy, Object: yet sweet
+26. Subject: prices, Relation: are, Object: surprisingly modest
+27. Subject: centre, Relation: is In, Object: contrast
+28. Subject: old-timer Sampurna, Relation: is in, Object: In contrast right centre of Amsterdam just off bustling flower market on Singel canal
+29. Subject: It, Relation: 's in, Object: business for over 35 years
+30. Subject: we, Relation: were, Object: hustled out door less than hour later
+31. Subject: I, Relation: went to, Object: Kartika
+32. Subject: we, Relation: order, Object: our food
+33. Subject: he, Relation: actually remembered, Object: me
+34. Subject: he, Relation: actually remembered amazingly, Object: me
+35. Subject: hotter version, Relation: is in, Object: thin chilli-based broth
+36. Subject: milder version, Relation: is in, Object: sweet soy-based sauce aromatic anise
+37. Subject: cheapest rijsttafels, Relation: is in, Object: Amsterdam
+38. Subject: Dèsa, Relation: is in, Object: De Pijp
+39. Subject: rica-rica, Relation: is in, Object: coconut milk
+40. Subject: Dèsa, Relation: overall is solid contender at, Object: especially price point
+41. Subject: Dèsa, Relation: is, Object: solid
+42. Subject: we, Relation: free round of, Object: drinks
+43. Subject: we, Relation: were offered, Object: free round of drinks
+44. Subject: rare occurrence, Relation: is in, Object: Amsterdam
+45. Subject: its rijsttafel, Relation: served in, Object: traditional courses
+46. Subject: you, Relation: take, Object: your parents
+47. Subject: this, Relation: is, Object: Indonesian
+48. Subject: Its, Relation: interior, Object: extensive wine-list
+49. Subject: couple, Relation: were, Object: excellent
+50. Subject: dessert, Relation: was, Object: tropical
+51. Subject: I, Relation: 'm, Object: asked
+52. Subject: I, Relation: 'm, Object: often asked
+53. Subject: nothing wrong, Relation: is with, Object: that
+54. Subject: mamamakan.com Editor, Relation: has, Object: note
+55. Subject: Blue Pepper Blue Pepper, Relation: is essentially serving, Object: fine-dining-meets rijsttafel version of Indonesian food
+56. Subject: it, Relation: has, Object: your dad 's birthday
+57. Subject: dad, Relation: has, Object: birthday
+58. Subject: you, Relation: can order, Object: paired wines
+59. Subject: food, Relation: presentation of is, Object: notch fancier
+60. Subject: presentation, Relation: is, Object: fancier
+61. Subject: evening delicate scallop dish, Relation: is with, Object: orange
+62. Subject: course, Relation: was, Object: delicate
+63. Subject: palate-cleansing fruit combo, Relation: is with, Object: sweet sauce
+64. Subject: roll, Relation: is with, Object: sauce fragrant from cloves
+65. Subject: familiar territory, Relation: is With, Object: satay course
+66. Subject: quality, Relation: was, Object: still impressive
+67. Subject: restaurants, Relation: try before to, Object: posh-up rijsttafel
+68. Subject: restaurants, Relation: try to, Object: posh-up rijsttafel
+69. Subject: flavour, Relation: suffered as, Object: consequence
+70. Subject: restaurantbluepepper.com Editor, Relation: has, Object: note
+71. Subject: tempura, Relation: is with, Object: creamy coconut
+72. Subject: smoked mackerel, Relation: steamed in, Object: banana leaf with plenty of spicy tomato-based
+73. Subject: banana leaf, Relation: is with, Object: plenty of spicy tomato-based
+74. Subject: I, Relation: went to, Object: Jun
+75. Subject: I, Relation: was, Object: disappointed
+76. Subject: other Indonesian restaurants, Relation: is in, Object: Amsterdam
+77. Subject: I, Relation: try, Object: it
+78. Subject: Jun, Relation: has, Object: soto ayam
+79. Subject: oldest Indonesian restaurants, Relation: is in, Object: Netherlands
+80. Subject: You, Relation: 'd, Object: 'd wrong
+81. Subject: dishes, Relation: started suspiciously quickly, Object: arriving
+82. Subject: side dishes, Relation: lacked anything to, Object: pep up main event
+83. Subject: food tour, Relation: is with, Object: Eating Amsterdam
+84. Subject: I, Relation: 've ever eaten in, Object: Amsterdam
+85. Subject: corn fritters, Relation: peppered with, Object: kaffir lime
+86. Subject: next time, Relation: more, Object: lot
+87. Subject: Indonesian restaurants, Relation: is in, Object: Amsterdam
+88. Subject: you, Relation: check out, Object: Indonesian restaurants in Amsterdam
+89. Subject: I, Relation: help, Object: you
+90. Subject: airport, Relation: is, Object: huge
+91. Subject: FlixBus, Relation: neighbouring, Object: Germany
+92. Subject: you, Relation: means of, Object: transport
+93. Subject: Amsterdam, Relation: of, Object: excellent network of trams
+94. Subject: it, Relation: has, Object: compact
+95. Subject: they, Relation: 're compiled by, Object: local writers
+96. Subject: they, Relation: 're, Object: compiled
+97. Subject: Amsterdam Best Restaurants, Relation: is in, Object: Amsterdam
+98. Subject: Fried chicken, Relation: is in, Object: Amsterdam Best Restaurants

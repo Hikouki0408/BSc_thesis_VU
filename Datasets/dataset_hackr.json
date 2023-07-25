@@ -1,0 +1,302 @@
+[
+    {
+        "Subject": "Programming",
+        "Relation": "instructing",
+        "Object": "computers"
+    },
+    {
+        "Subject": "It",
+        "Relation": "be",
+        "Object": "simple"
+    },
+    {
+        "Subject": "first computer program creator",
+        "Relation": "is with",
+        "Object": "algorithm calculate"
+    },
+    {
+        "Subject": "Lovelace",
+        "Relation": "wrote",
+        "Object": "her algorithm for device"
+    },
+    {
+        "Subject": "It",
+        "Relation": "was",
+        "Object": "primitive"
+    },
+    {
+        "Subject": "It",
+        "Relation": "was",
+        "Object": "mechanical"
+    },
+    {
+        "Subject": "This",
+        "Relation": "is done with",
+        "Object": "programming languages"
+    },
+    {
+        "Subject": "we",
+        "Relation": "programming",
+        "Object": "languages"
+    },
+    {
+        "Subject": "computer",
+        "Relation": "by",
+        "Object": "CPU"
+    },
+    {
+        "Subject": "transistors",
+        "Relation": "switches with",
+        "Object": "two options on"
+    },
+    {
+        "Subject": "tiny electric switches",
+        "Relation": "is with",
+        "Object": "two options on"
+    },
+    {
+        "Subject": "computer 's CPU",
+        "Relation": "create",
+        "Object": "desired output"
+    },
+    {
+        "Subject": "computer",
+        "Relation": "has",
+        "Object": "CPU"
+    },
+    {
+        "Subject": "machine code",
+        "Relation": "is",
+        "Object": "In general referred to as low-level language"
+    },
+    {
+        "Subject": "code",
+        "Relation": "using",
+        "Object": "binary digits"
+    },
+    {
+        "Subject": "programmers",
+        "Relation": "translate assembly language into",
+        "Object": "machine code"
+    },
+    {
+        "Subject": "assembly language",
+        "Relation": "can",
+        "Object": "Like machine code can also referred to as low-level language"
+    },
+    {
+        "Subject": "it",
+        "Relation": "bundle together",
+        "Object": "all"
+    },
+    {
+        "Subject": "computer system",
+        "Relation": "to",
+        "Object": "abstraction layer"
+    },
+    {
+        "Subject": "Complete Python Bootcamp",
+        "Relation": "is in",
+        "Object": "Python Mid-level languages"
+    },
+    {
+        "Subject": "computers",
+        "Relation": "execute",
+        "Object": "code"
+    },
+    {
+        "Subject": "computers",
+        "Relation": "execute",
+        "Object": "code logic"
+    },
+    {
+        "Subject": "programming",
+        "Relation": "being",
+        "Object": "used"
+    },
+    {
+        "Subject": "computers",
+        "Relation": "execute",
+        "Object": "it"
+    },
+    {
+        "Subject": "programming",
+        "Relation": "creating",
+        "Object": "elements"
+    },
+    {
+        "Subject": "programming",
+        "Relation": "creating",
+        "Object": "broader elements"
+    },
+    {
+        "Subject": "your device",
+        "Relation": "display",
+        "Object": "it"
+    },
+    {
+        "Subject": "example",
+        "Relation": "is power of",
+        "Object": "instant messaging applications"
+    },
+    {
+        "Subject": "it",
+        "Relation": "have delivered in",
+        "Object": "minutes"
+    },
+    {
+        "Subject": "you",
+        "Relation": "order",
+        "Object": "food"
+    },
+    {
+        "Subject": "Computers",
+        "Relation": "can work",
+        "Object": "24/7"
+    },
+    {
+        "Subject": "you",
+        "Relation": "handle",
+        "Object": "tasks"
+    },
+    {
+        "Subject": "its",
+        "Relation": "core",
+        "Object": "programming"
+    },
+    {
+        "Subject": "you",
+        "Relation": "think through",
+        "Object": "problems"
+    },
+    {
+        "Subject": "you",
+        "Relation": "improve",
+        "Object": "your skills"
+    },
+    {
+        "Subject": "you",
+        "Relation": "improve",
+        "Object": "your analytical skills"
+    },
+    {
+        "Subject": "Creating computer programs",
+        "Relation": "consider",
+        "Object": "solutions"
+    },
+    {
+        "Subject": "It",
+        "Relation": "has",
+        "Object": "possible"
+    },
+    {
+        "Subject": "you",
+        "Relation": "ensure",
+        "Object": "smooth learning journey"
+    },
+    {
+        "Subject": "you",
+        "Relation": "learning",
+        "Object": "programming"
+    },
+    {
+        "Subject": "you",
+        "Relation": "learn to",
+        "Object": "program"
+    },
+    {
+        "Subject": "You",
+        "Relation": "switch",
+        "Object": "careers"
+    },
+    {
+        "Subject": "You",
+        "Relation": "build",
+        "Object": "passion project"
+    },
+    {
+        "Subject": "You",
+        "Relation": "learn as",
+        "Object": "hobby"
+    },
+    {
+        "Subject": "it",
+        "Relation": "has",
+        "Object": "better"
+    },
+    {
+        "Subject": "it",
+        "Relation": "pick",
+        "Object": "one"
+    },
+    {
+        "Subject": "online course",
+        "Relation": "reading",
+        "Object": "book"
+    },
+    {
+        "Subject": "choose",
+        "Relation": "best option for",
+        "Object": "you"
+    },
+    {
+        "Subject": "It",
+        "Relation": "has",
+        "Object": "fun"
+    },
+    {
+        "Subject": "Learning",
+        "Relation": "be",
+        "Object": "can hard"
+    },
+    {
+        "Subject": "you",
+        "Relation": "community of",
+        "Object": "like-minded learners"
+    },
+    {
+        "Subject": "programmers",
+        "Relation": "is with",
+        "Object": "more experience than you"
+    },
+    {
+        "Subject": "programming",
+        "Relation": "is",
+        "Object": "huge"
+    },
+    {
+        "Subject": "programming",
+        "Relation": "is in",
+        "Object": "simple words"
+    },
+    {
+        "Subject": "It",
+        "Relation": "maximize",
+        "Object": "power of computers"
+    },
+    {
+        "Subject": "Programming",
+        "Relation": "allows",
+        "Object": "us"
+    },
+    {
+        "Subject": "problems",
+        "Relation": "is with",
+        "Object": "computers"
+    },
+    {
+        "Subject": "Visual Studio Code",
+        "Relation": "like IDE is",
+        "Object": "Integrated Development Environment"
+    },
+    {
+        "Subject": "various software pieces",
+        "Relation": "some of",
+        "Object": "most essential IDE like Visual Studio Code"
+    },
+    {
+        "Subject": "additional processes",
+        "Relation": "identifying",
+        "Object": "program requirements"
+    }
+]

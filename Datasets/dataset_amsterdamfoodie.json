@@ -1,0 +1,492 @@
+[
+    {
+        "Subject": "12 Indonesian Restaurants",
+        "Relation": "is in",
+        "Object": "Amsterdam"
+    },
+    {
+        "Subject": "Indonesian restaurants",
+        "Relation": "is in",
+        "Object": "Amsterdam"
+    },
+    {
+        "Subject": "it",
+        "Relation": "has",
+        "Object": "great"
+    },
+    {
+        "Subject": "locals",
+        "Relation": "is in",
+        "Object": "Indonesia"
+    },
+    {
+        "Subject": "rijsttafels",
+        "Relation": "locals in",
+        "Object": "Indonesia"
+    },
+    {
+        "Subject": "vegetables",
+        "Relation": "is in",
+        "Object": "peanut sauce"
+    },
+    {
+        "Subject": "boiled eggs",
+        "Relation": "is in",
+        "Object": "spicy sauces"
+    },
+    {
+        "Subject": "Indonesian restaurants",
+        "Relation": "is in",
+        "Object": "Amsterdam"
+    },
+    {
+        "Subject": "proper sit-down meal",
+        "Relation": "is with",
+        "Object": "wine"
+    },
+    {
+        "Subject": "rijsttafel",
+        "Relation": "is in",
+        "Object": "Amsterdam Blauw"
+    },
+    {
+        "Subject": "new team",
+        "Relation": "is in",
+        "Object": "place"
+    },
+    {
+        "Subject": "fish mousse",
+        "Relation": "is with",
+        "Object": "spicy"
+    },
+    {
+        "Subject": "you",
+        "Relation": "have",
+        "Object": "room"
+    },
+    {
+        "Subject": "Blauw",
+        "Relation": "has",
+        "Object": "grand dessert"
+    },
+    {
+        "Subject": "it",
+        "Relation": "'s on",
+        "Object": "Utrechtsestraat"
+    },
+    {
+        "Subject": "flowing",
+        "Relation": "carafes of",
+        "Object": "house wine"
+    },
+    {
+        "Subject": "they",
+        "Relation": "were",
+        "Object": "happy"
+    },
+    {
+        "Subject": "eyes",
+        "Relation": "might water",
+        "Object": "little"
+    },
+    {
+        "Subject": "it",
+        "Relation": "come by in",
+        "Object": "gathering of list"
+    },
+    {
+        "Subject": "that",
+        "Relation": "has",
+        "Object": "good"
+    },
+    {
+        "Subject": "It",
+        "Relation": "pick out",
+        "Object": "favourite dishes"
+    },
+    {
+        "Subject": "It",
+        "Relation": "pick out",
+        "Object": "dishes"
+    },
+    {
+        "Subject": "tujuhmaret.nl Tujuh Maret",
+        "Relation": "has",
+        "Object": "spicy rijsttafel"
+    },
+    {
+        "Subject": "series",
+        "Relation": "is in",
+        "Object": "Amsterdam"
+    },
+    {
+        "Subject": "sauces",
+        "Relation": "spicy",
+        "Object": "yet sweet"
+    },
+    {
+        "Subject": "prices",
+        "Relation": "are",
+        "Object": "surprisingly modest"
+    },
+    {
+        "Subject": "centre",
+        "Relation": "is In",
+        "Object": "contrast"
+    },
+    {
+        "Subject": "old-timer Sampurna",
+        "Relation": "is in",
+        "Object": "In contrast right centre of Amsterdam just off bustling flower market on Singel canal"
+    },
+    {
+        "Subject": "It",
+        "Relation": "'s in",
+        "Object": "business for over 35 years"
+    },
+    {
+        "Subject": "we",
+        "Relation": "were",
+        "Object": "hustled out door less than hour later"
+    },
+    {
+        "Subject": "I",
+        "Relation": "went to",
+        "Object": "Kartika"
+    },
+    {
+        "Subject": "we",
+        "Relation": "order",
+        "Object": "our food"
+    },
+    {
+        "Subject": "he",
+        "Relation": "actually remembered",
+        "Object": "me"
+    },
+    {
+        "Subject": "he",
+        "Relation": "actually remembered amazingly",
+        "Object": "me"
+    },
+    {
+        "Subject": "hotter version",
+        "Relation": "is in",
+        "Object": "thin chilli-based broth"
+    },
+    {
+        "Subject": "milder version",
+        "Relation": "is in",
+        "Object": "sweet soy-based sauce aromatic anise"
+    },
+    {
+        "Subject": "cheapest rijsttafels",
+        "Relation": "is in",
+        "Object": "Amsterdam"
+    },
+    {
+        "Subject": "D\u00e8sa",
+        "Relation": "is in",
+        "Object": "De Pijp"
+    },
+    {
+        "Subject": "rica-rica",
+        "Relation": "is in",
+        "Object": "coconut milk"
+    },
+    {
+        "Subject": "D\u00e8sa",
+        "Relation": "overall is solid contender at",
+        "Object": "especially price point"
+    },
+    {
+        "Subject": "D\u00e8sa",
+        "Relation": "is",
+        "Object": "solid"
+    },
+    {
+        "Subject": "we",
+        "Relation": "free round of",
+        "Object": "drinks"
+    },
+    {
+        "Subject": "we",
+        "Relation": "were offered",
+        "Object": "free round of drinks"
+    },
+    {
+        "Subject": "rare occurrence",
+        "Relation": "is in",
+        "Object": "Amsterdam"
+    },
+    {
+        "Subject": "its rijsttafel",
+        "Relation": "served in",
+        "Object": "traditional courses"
+    },
+    {
+        "Subject": "you",
+        "Relation": "take",
+        "Object": "your parents"
+    },
+    {
+        "Subject": "this",
+        "Relation": "is",
+        "Object": "Indonesian"
+    },
+    {
+        "Subject": "Its",
+        "Relation": "interior",
+        "Object": "extensive wine-list"
+    },
+    {
+        "Subject": "couple",
+        "Relation": "were",
+        "Object": "excellent"
+    },
+    {
+        "Subject": "dessert",
+        "Relation": "was",
+        "Object": "tropical"
+    },
+    {
+        "Subject": "I",
+        "Relation": "'m",
+        "Object": "asked"
+    },
+    {
+        "Subject": "I",
+        "Relation": "'m",
+        "Object": "often asked"
+    },
+    {
+        "Subject": "nothing wrong",
+        "Relation": "is with",
+        "Object": "that"
+    },
+    {
+        "Subject": "mamamakan.com Editor",
+        "Relation": "has",
+        "Object": "note"
+    },
+    {
+        "Subject": "Blue Pepper Blue Pepper",
+        "Relation": "is essentially serving",
+        "Object": "fine-dining-meets rijsttafel version of Indonesian food"
+    },
+    {
+        "Subject": "it",
+        "Relation": "has",
+        "Object": "your dad 's birthday"
+    },
+    {
+        "Subject": "dad",
+        "Relation": "has",
+        "Object": "birthday"
+    },
+    {
+        "Subject": "you",
+        "Relation": "can order",
+        "Object": "paired wines"
+    },
+    {
+        "Subject": "food",
+        "Relation": "presentation of is",
+        "Object": "notch fancier"
+    },
+    {
+        "Subject": "presentation",
+        "Relation": "is",
+        "Object": "fancier"
+    },
+    {
+        "Subject": "evening delicate scallop dish",
+        "Relation": "is with",
+        "Object": "orange"
+    },
+    {
+        "Subject": "course",
+        "Relation": "was",
+        "Object": "delicate"
+    },
+    {
+        "Subject": "palate-cleansing fruit combo",
+        "Relation": "is with",
+        "Object": "sweet sauce"
+    },
+    {
+        "Subject": "roll",
+        "Relation": "is with",
+        "Object": "sauce fragrant from cloves"
+    },
+    {
+        "Subject": "familiar territory",
+        "Relation": "is With",
+        "Object": "satay course"
+    },
+    {
+        "Subject": "quality",
+        "Relation": "was",
+        "Object": "still impressive"
+    },
+    {
+        "Subject": "restaurants",
+        "Relation": "try before to",
+        "Object": "posh-up rijsttafel"
+    },
+    {
+        "Subject": "restaurants",
+        "Relation": "try to",
+        "Object": "posh-up rijsttafel"
+    },
+    {
+        "Subject": "flavour",
+        "Relation": "suffered as",
+        "Object": "consequence"
+    },
+    {
+        "Subject": "restaurantbluepepper.com Editor",
+        "Relation": "has",
+        "Object": "note"
+    },
+    {
+        "Subject": "tempura",
+        "Relation": "is with",
+        "Object": "creamy coconut"
+    },
+    {
+        "Subject": "smoked mackerel",
+        "Relation": "steamed in",
+        "Object": "banana leaf with plenty of spicy tomato-based"
+    },
+    {
+        "Subject": "banana leaf",
+        "Relation": "is with",
+        "Object": "plenty of spicy tomato-based"
+    },
+    {
+        "Subject": "I",
+        "Relation": "went to",
+        "Object": "Jun"
+    },
+    {
+        "Subject": "I",
+        "Relation": "was",
+        "Object": "disappointed"
+    },
+    {
+        "Subject": "other Indonesian restaurants",
+        "Relation": "is in",
+        "Object": "Amsterdam"
+    },
+    {
+        "Subject": "I",
+        "Relation": "try",
+        "Object": "it"
+    },
+    {
+        "Subject": "Jun",
+        "Relation": "has",
+        "Object": "soto ayam"
+    },
+    {
+        "Subject": "oldest Indonesian restaurants",
+        "Relation": "is in",
+        "Object": "Netherlands"
+    },
+    {
+        "Subject": "You",
+        "Relation": "'d",
+        "Object": "'d wrong"
+    },
+    {
+        "Subject": "dishes",
+        "Relation": "started suspiciously quickly",
+        "Object": "arriving"
+    },
+    {
+        "Subject": "side dishes",
+        "Relation": "lacked anything to",
+        "Object": "pep up main event"
+    },
+    {
+        "Subject": "food tour",
+        "Relation": "is with",
+        "Object": "Eating Amsterdam"
+    },
+    {
+        "Subject": "I",
+        "Relation": "'ve ever eaten in",
+        "Object": "Amsterdam"
+    },
+    {
+        "Subject": "corn fritters",
+        "Relation": "peppered with",
+        "Object": "kaffir lime"
+    },
+    {
+        "Subject": "next time",
+        "Relation": "more",
+        "Object": "lot"
+    },
+    {
+        "Subject": "Indonesian restaurants",
+        "Relation": "is in",
+        "Object": "Amsterdam"
+    },
+    {
+        "Subject": "you",
+        "Relation": "check out",
+        "Object": "Indonesian restaurants in Amsterdam"
+    },
+    {
+        "Subject": "I",
+        "Relation": "help",
+        "Object": "you"
+    },
+    {
+        "Subject": "airport",
+        "Relation": "is",
+        "Object": "huge"
+    },
+    {
+        "Subject": "FlixBus",
+        "Relation": "neighbouring",
+        "Object": "Germany"
+    },
+    {
+        "Subject": "you",
+        "Relation": "means of",
+        "Object": "transport"
+    },
+    {
+        "Subject": "Amsterdam",
+        "Relation": "of",
+        "Object": "excellent network of trams"
+    },
+    {
+        "Subject": "it",
+        "Relation": "has",
+        "Object": "compact"
+    },
+    {
+        "Subject": "they",
+        "Relation": "'re compiled by",
+        "Object": "local writers"
+    },
+    {
+        "Subject": "they",
+        "Relation": "'re",
+        "Object": "compiled"
+    },
+    {
+        "Subject": "Amsterdam Best Restaurants",
+        "Relation": "is in",
+        "Object": "Amsterdam"
+    },
+    {
+        "Subject": "Fried chicken",
+        "Relation": "is in",
+        "Object": "Amsterdam Best Restaurants"
+    }
+]

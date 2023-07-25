@@ -33,7 +33,7 @@ def get_tag_text(tag):
 url = 'https://www.cntraveller.com/gallery/beautiful-places-amsterdam'
 response = requests.get(url)
 soup = BeautifulSoup(response.content, 'html.parser')
-body = soup.find('head')
+body = soup.find('body') # for <head>  body = soup.find('head')
 tags = body.find_all(lambda tag: tag.name not in ['style', 'script'])
 
 text_tags = 0

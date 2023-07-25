@@ -164,17 +164,19 @@ class MyHTMLParser(HTMLParser):
     
 # https://hikouki0408.github.io/portfolio/                        
 # 1. https://en.wikipedia.org/wiki/Vrije_Universiteit_Amsterdam
-# 2. https://stackoverflow.blog/2023/05/31/ceo-update-paving-the-road-forward-with-ai-and-community-at-the-center
-# 3. https://www.euronews.com/travel/2023/02/27/long-queues-and-scams-will-the-new-eu-entry-system-cause-border-chaos
-# 4. https://www.tudelftcampus.nl/time-to-shake-up-the-pile-driving-industry
-# 5. https://hackr.io/blog/what-is-programming
-# 6. https://www.amsterdamfoodie.nl/amsterdam-food-guide/indonesian-restaurants-in-amsterdam-rijsttafel
-# 7. https://www.engadget.com/best-android-phone-130030805.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAMJRC35y42RkEpGFN410RsxpbKvMCO1YlLmbtdzQ8pV8l3LRZ5sWPGJQYf-yEwX7vimbG2qzSJYMbpZ545Hz3cup5XB1qlkb203T1mVAKhmOteZxYDxKoohpFTWRvo-M8MzqByHFRBN4-odKGhQEche2Zb-GXjopL6cIZsxeIuLl
-# 8. https://www.hotcars.com/upcoming-cars-worth-waiting-for/#2023-fisker-ocean
-# 9. https://research.ibm.com/blog/utility-toward-useful-quantum
-# 10. https://theluxurytravelexpert.com/2020/12/14/best-hotels-in-the-world
+# 2  https://www.tudelftcampus.nl/time-to-shake-up-the-pile-driving-industry
+# 3. https://stackoverflow.blog/2023/05/31/ceo-update-paving-the-road-forward-with-ai-and-community-at-the-center
+# 4. https://www.euronews.com/travel/2023/02/27/long-queues-and-scams-will-the-new-eu-entry-system-cause-border-chaos
 
-response = urllib.request.urlopen('https://stackoverflow.blog/2023/05/31/ceo-update-paving-the-road-forward-with-ai-and-community-at-the-center')
+# 5. https://theluxurytravelexpert.com/2020/12/14/best-hotels-in-the-world Size of the text: 211956 bytes
+# 6. https://research.ibm.com/blog/utility-toward-useful-quantum             Size of the text: 115986 bytes
+# 7. https://www.hotcars.com/upcoming-cars-worth-waiting-for/#2023-fisker-ocean Size of the text: 112716 bytes
+# 8. https://hackr.io/blog/what-is-programming Size of the text: 94236 bytes
+# 9. https://www.amsterdamfoodie.nl/amsterdam-food-guide/indonesian-restaurants-in-amsterdam-rijsttafel # Size of the text: 75670 bytes
+# 10. https://www.engadget.com/best-android-phone-130030805.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAMJRC35y42RkEpGFN410RsxpbKvMCO1YlLmbtdzQ8pV8l3LRZ5sWPGJQYf-yEwX7vimbG2qzSJYMbpZ545Hz3cup5XB1qlkb203T1mVAKhmOteZxYDxKoohpFTWRvo-M8MzqByHFRBN4-odKGhQEche2Zb-GXjopL6cIZsxeIuLl
+# 10. (above) Size of the text: 86898 bytes
+
+response = urllib.request.urlopen('https://www.engadget.com/best-android-phone-130030805.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAMJRC35y42RkEpGFN410RsxpbKvMCO1YlLmbtdzQ8pV8l3LRZ5sWPGJQYf-yEwX7vimbG2qzSJYMbpZ545Hz3cup5XB1qlkb203T1mVAKhmOteZxYDxKoohpFTWRvo-M8MzqByHFRBN4-odKGhQEche2Zb-GXjopL6cIZsxeIuLl')
 parser = MyHTMLParser()
 print("[Parsing HTML file...]")
 print()
@@ -185,6 +187,9 @@ print()
 print("[Done printing data by label.]")
 print(parser.text)
 
+
+with open('text.txt', 'w') as file:
+    file.write(parser.text)
 
 """
 with open('text.txt', 'w') as file:

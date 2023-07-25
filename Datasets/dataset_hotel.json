@@ -1,0 +1,772 @@
+[
+    {
+        "Subject": "Top 10 best hotels",
+        "Relation": "is in",
+        "Object": "world"
+    },
+    {
+        "Subject": "Top 10 fabulous hotels",
+        "Relation": "is in",
+        "Object": "Maldives"
+    },
+    {
+        "Subject": "luxury hotels",
+        "Relation": "is with",
+        "Object": "Virtuoso Travel tips"
+    },
+    {
+        "Subject": "Top 10 best hotels",
+        "Relation": "is in",
+        "Object": "world"
+    },
+    {
+        "Subject": "your favorite hotel",
+        "Relation": "is in",
+        "Object": "world"
+    },
+    {
+        "Subject": "It",
+        "Relation": "answer",
+        "Object": "question"
+    },
+    {
+        "Subject": "world",
+        "Relation": "of",
+        "Object": "most beautiful luxury hotels"
+    },
+    {
+        "Subject": "more information",
+        "Relation": "is with",
+        "Object": "reviews"
+    },
+    {
+        "Subject": "your favorite hotel",
+        "Relation": "is in",
+        "Object": "world"
+    },
+    {
+        "Subject": "comment",
+        "Relation": "take below",
+        "Object": "my poll"
+    },
+    {
+        "Subject": "yourself",
+        "Relation": "sole inhabitant of",
+        "Object": "beautiful tropical island"
+    },
+    {
+        "Subject": "hideaway",
+        "Relation": "is",
+        "Object": "barefoot"
+    },
+    {
+        "Subject": "hideaway",
+        "Relation": "is",
+        "Object": "award-winning"
+    },
+    {
+        "Subject": "scuba diver",
+        "Relation": "has",
+        "Object": "delight"
+    },
+    {
+        "Subject": "Mnemba atoll",
+        "Relation": "delight 's",
+        "Object": "scuba diver"
+    },
+    {
+        "Subject": "Beyond Mnemba Island",
+        "Relation": "has",
+        "Object": "something for everyone"
+    },
+    {
+        "Subject": "Beyond Mnemba Island",
+        "Relation": "something for",
+        "Object": "everyone"
+    },
+    {
+        "Subject": "massages",
+        "Relation": "is in",
+        "Object": "beach"
+    },
+    {
+        "Subject": "Beyond Mnemba Island",
+        "Relation": "has",
+        "Object": "something"
+    },
+    {
+        "Subject": "stunning resorts",
+        "Relation": "is in",
+        "Object": "Zanzibar"
+    },
+    {
+        "Subject": "Africa",
+        "Relation": "has",
+        "Object": "most astonishing beach retreats Review"
+    },
+    {
+        "Subject": "my top 10 lists",
+        "Relation": "resorts in",
+        "Object": "Zanzibar"
+    },
+    {
+        "Subject": "my top 10 lists",
+        "Relation": "hotels in",
+        "Object": "Tanzania"
+    },
+    {
+        "Subject": "my",
+        "Relation": "lists",
+        "Object": "best luxury hotels in Tanzania"
+    },
+    {
+        "Subject": "best luxury hotels",
+        "Relation": "is in",
+        "Object": "Tanzania"
+    },
+    {
+        "Subject": "exclusive private island retreats",
+        "Relation": "of lists is",
+        "Object": "best luxury hotels in Tanzania"
+    },
+    {
+        "Subject": "exclusive private island retreats",
+        "Relation": "of lists is",
+        "Object": "most stunning resorts in Zanzibar"
+    },
+    {
+        "Subject": "exclusive private island retreats",
+        "Relation": "is in",
+        "Object": "world"
+    },
+    {
+        "Subject": "Beyond Mnemba Island",
+        "Relation": "also features in",
+        "Object": "most stunning resorts in Zanzibar"
+    },
+    {
+        "Subject": "my",
+        "Relation": "lists",
+        "Object": "most stunning resorts in Zanzibar"
+    },
+    {
+        "Subject": "Italy",
+        "Relation": "of",
+        "Object": "Amalfi Coast"
+    },
+    {
+        "Subject": "luxury hotel",
+        "Relation": "Located at",
+        "Object": "highest quietest point of Ravello"
+    },
+    {
+        "Subject": "intimate retreat",
+        "Relation": "is with",
+        "Object": "intriguing sense of history"
+    },
+    {
+        "Subject": "intimate retreat",
+        "Relation": "is With",
+        "Object": "frescoed salons"
+    },
+    {
+        "Subject": "it",
+        "Relation": "is",
+        "Object": "intimate"
+    },
+    {
+        "Subject": "sunlit",
+        "Relation": "is in",
+        "Object": "Belvedere Restaurant"
+    },
+    {
+        "Subject": "world",
+        "Relation": "of",
+        "Object": "most spectacular infinity pools"
+    },
+    {
+        "Subject": "world",
+        "Relation": "has",
+        "Object": "most stunning hotel pools"
+    },
+    {
+        "Subject": "my",
+        "Relation": "lists",
+        "Object": "most spectacular cliffside luxury hotels"
+    },
+    {
+        "Subject": "world",
+        "Relation": "has",
+        "Object": "most spectacular cliffside luxury hotels"
+    },
+    {
+        "Subject": "top 10 lists",
+        "Relation": "hotels 's",
+        "Object": "world"
+    },
+    {
+        "Subject": "best luxury hotels",
+        "Relation": "of lists is",
+        "Object": "world 's most spectacular cliffside luxury hotels"
+    },
+    {
+        "Subject": "best luxury hotels",
+        "Relation": "is in",
+        "Object": "Italy"
+    },
+    {
+        "Subject": "Bay",
+        "Relation": "is",
+        "Object": "ultra-luxurious"
+    },
+    {
+        "Subject": "Bay",
+        "Relation": "is",
+        "Object": "located"
+    },
+    {
+        "Subject": "Oman",
+        "Relation": "on",
+        "Object": "northern Musandam Peninsula"
+    },
+    {
+        "Subject": "ultra-luxurious hidden gem located",
+        "Relation": "journey from",
+        "Object": "Dubai"
+    },
+    {
+        "Subject": "Bay",
+        "Relation": "is",
+        "Object": "hidden"
+    },
+    {
+        "Subject": "setting",
+        "Relation": "is with",
+        "Object": "its private marina"
+    },
+    {
+        "Subject": "Hotel website",
+        "Relation": "Senses",
+        "Object": "Zighy Bay"
+    },
+    {
+        "Subject": "Hotel website Six",
+        "Relation": "Senses",
+        "Object": "Zighy Bay"
+    },
+    {
+        "Subject": "Oman",
+        "Relation": "experiences 's",
+        "Object": "world"
+    },
+    {
+        "Subject": "upgrade",
+        "Relation": "massage for",
+        "Object": "two people"
+    },
+    {
+        "Subject": "Oman",
+        "Relation": "hotels 's",
+        "Object": "world"
+    },
+    {
+        "Subject": "world",
+        "Relation": "has",
+        "Object": "most amazing beach hotels"
+    },
+    {
+        "Subject": "world",
+        "Relation": "has",
+        "Object": "most over-the-top hotel experiences"
+    },
+    {
+        "Subject": "best luxury hotels",
+        "Relation": "is in",
+        "Object": "Oman"
+    },
+    {
+        "Subject": "best health spas",
+        "Relation": "is in",
+        "Object": "world"
+    },
+    {
+        "Subject": "Oman",
+        "Relation": "spas in",
+        "Object": "world"
+    },
+    {
+        "Subject": "Zighy Bay",
+        "Relation": "read",
+        "Object": "my review of Six"
+    },
+    {
+        "Subject": "Zighy Bay",
+        "Relation": "read",
+        "Object": "my review"
+    },
+    {
+        "Subject": "Royal Malewane",
+        "Relation": "is",
+        "Object": "luxury safari lodge with several one to six-bedroom villas located in Thornybush private game reserve on western border of Kruger National Park"
+    },
+    {
+        "Subject": "country",
+        "Relation": "has",
+        "Object": "most qualified guiding team"
+    },
+    {
+        "Subject": "Royal Malewane",
+        "Relation": "of",
+        "Object": "Bush Spa"
+    },
+    {
+        "Subject": "best luxury hotels",
+        "Relation": "is in",
+        "Object": "South Africa"
+    },
+    {
+        "Subject": "beautiful safari lodges",
+        "Relation": "is in",
+        "Object": "Africa"
+    },
+    {
+        "Subject": "exclusive safari lodges",
+        "Relation": "is in",
+        "Object": "South Africa Tip"
+    },
+    {
+        "Subject": "Adriatic pirates",
+        "Relation": "sway over",
+        "Object": "crystal-clear coastline"
+    },
+    {
+        "Subject": "Montenegro",
+        "Relation": "island of",
+        "Object": "Sveti Stefan"
+    },
+    {
+        "Subject": "provides",
+        "Relation": "unparalleled access to",
+        "Object": "UNESCO World Heritage Site"
+    },
+    {
+        "Subject": "Kotor",
+        "Relation": "of Bay is",
+        "Object": "UNESCO World Heritage Site"
+    },
+    {
+        "Subject": "beaches",
+        "Relation": "of kilometers is",
+        "Object": "1,3 miles"
+    },
+    {
+        "Subject": "resort",
+        "Relation": "has",
+        "Object": "interiors"
+    },
+    {
+        "Subject": "resort 's interiors",
+        "Relation": "meet",
+        "Object": "contemporary expectations"
+    },
+    {
+        "Subject": "island",
+        "Relation": "has",
+        "Object": "historic exterior"
+    },
+    {
+        "Subject": "my favorite Aman resorts",
+        "Relation": "is in",
+        "Object": "world"
+    },
+    {
+        "Subject": "Europe",
+        "Relation": "has",
+        "Object": "most astonishing beach retreats Tip"
+    },
+    {
+        "Subject": "Soneva Fushi",
+        "Relation": "hideaway '",
+        "Object": "Robinson Crusoe"
+    },
+    {
+        "Subject": "Soneva Fushi",
+        "Relation": "hideaway in",
+        "Object": "Maldives"
+    },
+    {
+        "Subject": "first Robinson Crusoe ' style hideaway",
+        "Relation": "is in",
+        "Object": "Maldives"
+    },
+    {
+        "Subject": "largest islands",
+        "Relation": "is in",
+        "Object": "Maldives"
+    },
+    {
+        "Subject": "island",
+        "Relation": "has",
+        "Object": "unusually rich vegetation"
+    },
+    {
+        "Subject": "residences",
+        "Relation": "are hidden among",
+        "Object": "dense tropical foliage"
+    },
+    {
+        "Subject": "many",
+        "Relation": "resemble",
+        "Object": "tree houses"
+    },
+    {
+        "Subject": "many",
+        "Relation": "keeping with",
+        "Object": "castaway theme"
+    },
+    {
+        "Subject": "Intuitive service",
+        "Relation": "is",
+        "Object": "provided"
+    },
+    {
+        "Subject": "best resorts",
+        "Relation": "is in",
+        "Object": "Maldives"
+    },
+    {
+        "Subject": "best hotels",
+        "Relation": "is in",
+        "Object": "Maldives"
+    },
+    {
+        "Subject": "Maldives",
+        "Relation": "hotels in",
+        "Object": "world"
+    },
+    {
+        "Subject": "world",
+        "Relation": "has",
+        "Object": "most insanely beautiful hotel beaches Tip"
+    },
+    {
+        "Subject": "best family hotels",
+        "Relation": "is in",
+        "Object": "world"
+    },
+    {
+        "Subject": "Asia",
+        "Relation": "resorts for",
+        "Object": "snorkeling"
+    },
+    {
+        "Subject": "Asia",
+        "Relation": "resorts in",
+        "Object": "Maldives"
+    },
+    {
+        "Subject": "astonishing beach retreats",
+        "Relation": "is in",
+        "Object": "Asia"
+    },
+    {
+        "Subject": "Miavana",
+        "Relation": "is",
+        "Object": "luxurious"
+    },
+    {
+        "Subject": "Miavana",
+        "Relation": "is",
+        "Object": "located"
+    },
+    {
+        "Subject": "Indian Ocean",
+        "Relation": "has",
+        "Object": "spectacular maritime wonders"
+    },
+    {
+        "Subject": "island",
+        "Relation": "along",
+        "Object": "western pure white beaches"
+    },
+    {
+        "Subject": "Miavana",
+        "Relation": "has",
+        "Object": "palatial villas"
+    },
+    {
+        "Subject": "resort 's guides",
+        "Relation": "mosaic of",
+        "Object": "unexplored coves"
+    },
+    {
+        "Subject": "resort",
+        "Relation": "has",
+        "Object": "guides"
+    },
+    {
+        "Subject": "located luxury hotels",
+        "Relation": "is in",
+        "Object": "world"
+    },
+    {
+        "Subject": "Thailand",
+        "Relation": "'s island is",
+        "Object": "Koh Kood"
+    },
+    {
+        "Subject": "Thailand",
+        "Relation": "on",
+        "Object": "4th largest island"
+    },
+    {
+        "Subject": "resort",
+        "Relation": "on",
+        "Object": "private plane"
+    },
+    {
+        "Subject": "exclusive resorts",
+        "Relation": "is in",
+        "Object": "world"
+    },
+    {
+        "Subject": "luxury",
+        "Relation": "of combination is",
+        "Object": "authentic Thai experiences"
+    },
+    {
+        "Subject": "idyllic beach",
+        "Relation": "is in",
+        "Object": "rainforest"
+    },
+    {
+        "Subject": "open air cinema Paradiso",
+        "Relation": "den 's",
+        "Object": "children"
+    },
+    {
+        "Subject": "children",
+        "Relation": "has",
+        "Object": "den"
+    },
+    {
+        "Subject": "best private plunge pools",
+        "Relation": "is in",
+        "Object": "world"
+    },
+    {
+        "Subject": "world",
+        "Relation": "has",
+        "Object": "most beautiful hotel beaches"
+    },
+    {
+        "Subject": "Thailand",
+        "Relation": "beaches 's",
+        "Object": "world"
+    },
+    {
+        "Subject": "world",
+        "Relation": "has",
+        "Object": "best family hotels"
+    },
+    {
+        "Subject": "luxury hotels",
+        "Relation": "is with",
+        "Object": "private airports Tip"
+    },
+    {
+        "Subject": "Thailand",
+        "Relation": "hotels 's",
+        "Object": "world"
+    },
+    {
+        "Subject": "Thailand",
+        "Relation": "hotels 's",
+        "Object": "world"
+    },
+    {
+        "Subject": "Thailand",
+        "Relation": "hotels 's",
+        "Object": "world"
+    },
+    {
+        "Subject": "world",
+        "Relation": "has",
+        "Object": "most outrageous hotel experiences"
+    },
+    {
+        "Subject": "welcome Champagne",
+        "Relation": "is with",
+        "Object": "Thai tapas"
+    },
+    {
+        "Subject": "Thailand",
+        "Relation": "resorts 's",
+        "Object": "world"
+    },
+    {
+        "Subject": "beautiful hotels",
+        "Relation": "is in",
+        "Object": "Thailand"
+    },
+    {
+        "Subject": "world",
+        "Relation": "has",
+        "Object": "most remote hotels"
+    },
+    {
+        "Subject": "Thailand",
+        "Relation": "experiences 's",
+        "Object": "world"
+    },
+    {
+        "Subject": "world",
+        "Relation": "has",
+        "Object": "most amazing beach resorts"
+    },
+    {
+        "Subject": "world",
+        "Relation": "has",
+        "Object": "best luxury hotels"
+    },
+    {
+        "Subject": "Thailand",
+        "Relation": "pools in",
+        "Object": "world"
+    },
+    {
+        "Subject": "astonishing beach retreats",
+        "Relation": "is in",
+        "Object": "Asia"
+    },
+    {
+        "Subject": "world",
+        "Relation": "as",
+        "Object": "most exclusive hideaway"
+    },
+    {
+        "Subject": "North Island",
+        "Relation": "has",
+        "Object": "reputation as world 's most exclusive hideaway"
+    },
+    {
+        "Subject": "island",
+        "Relation": "has",
+        "Object": "lounge"
+    },
+    {
+        "Subject": "Brutus",
+        "Relation": "tortoise 's",
+        "Object": "island"
+    },
+    {
+        "Subject": "island",
+        "Relation": "has",
+        "Object": "160-year-old tortoise"
+    },
+    {
+        "Subject": "Prince William",
+        "Relation": "Dutchess of",
+        "Object": "Cambridge"
+    },
+    {
+        "Subject": "decor",
+        "Relation": "is in",
+        "Object": "2011"
+    },
+    {
+        "Subject": "Africa",
+        "Relation": "has",
+        "Object": "most astonishing beach retreats Review"
+    },
+    {
+        "Subject": "world",
+        "Relation": "has",
+        "Object": "most exclusive private island resorts"
+    },
+    {
+        "Subject": "best resorts",
+        "Relation": "is in",
+        "Object": "Seychelles"
+    },
+    {
+        "Subject": "Seychelles",
+        "Relation": "resorts 's",
+        "Object": "world"
+    },
+    {
+        "Subject": "Seychelles",
+        "Relation": "resorts 's",
+        "Object": "world"
+    },
+    {
+        "Subject": "world",
+        "Relation": "has",
+        "Object": "most expensive hotels"
+    },
+    {
+        "Subject": "world",
+        "Relation": "has",
+        "Object": "best honeymoon resorts"
+    },
+    {
+        "Subject": "Seychelles",
+        "Relation": "hotels 's",
+        "Object": "world"
+    },
+    {
+        "Subject": "wisdom",
+        "Relation": "is in",
+        "Object": "Sanskrit"
+    },
+    {
+        "Subject": "uninhabited five-island cluster",
+        "Relation": "is in",
+        "Object": "Noonu Atoll"
+    },
+    {
+        "Subject": "Maldives",
+        "Relation": "'",
+        "Object": "hotel"
+    },
+    {
+        "Subject": "my favorite hotel",
+        "Relation": "is in",
+        "Object": "world"
+    },
+    {
+        "Subject": "slides",
+        "Relation": "going directly from",
+        "Object": "top deck into lagoon below"
+    },
+    {
+        "Subject": "retractable roof",
+        "Relation": "is in",
+        "Object": "master bedroom"
+    },
+    {
+        "Subject": "Maldives",
+        "Relation": "retreats in",
+        "Object": "Asia"
+    },
+    {
+        "Subject": "my favorite hotels",
+        "Relation": "is in",
+        "Object": "world Review"
+    },
+    {
+        "Subject": "fabulous overwater villas",
+        "Relation": "is in",
+        "Object": "Maldives"
+    },
+    {
+        "Subject": "beautiful resorts",
+        "Relation": "is in",
+        "Object": "Maldives"
+    },
+    {
+        "Subject": "astonishing beach retreats",
+        "Relation": "is in",
+        "Object": "Asia"
+    }
+]
