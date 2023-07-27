@@ -1,14 +1,19 @@
-import requests
-from bs4 import BeautifulSoup
+import requests                      # Import the 'requests' library to make HTTP requests
+from bs4 import BeautifulSoup       # Import 'BeautifulSoup' from the 'bs4' library for HTML parsing
 
-# https://hikouki0408.github.io/portfolio 
-# https://www.amazon.nl/-/en
+# Web Scraping and Tag Analysis
+# This script fetches a web page using the requests library, then utilizes BeautifulSoup
+# to parse the HTML content. It performs tag analysis, calculating the percentage of
+# text-containing HTML tags and the percentage of text within each individual tag.
+# CSS and script tags are removed, and statistics are collected on the occurrence of
+# different HTML tags and their respective text percentages.
 
+# Define a function to remove <style> and <script> tags from a given tag
 def remove_css_scripts(tag):
-    # Remove <style> and <script> tags from the given tag
     for css_script_tag in tag.find_all(['style', 'script']):
         css_script_tag.decompose()
 
+# Define a function to retrieve the text from a tag, removing any unwanted elements
 def get_tag_text(tag):
     if isinstance(tag, str):
         return tag.strip()
@@ -18,63 +23,45 @@ def get_tag_text(tag):
         return tag.string.strip()
     else:
         return ''.join(get_tag_text(child) for child in tag.contents if isinstance(child, str) or child.name not in ['style', 'script'])
+
     
-# 1. https://en.wikipedia.org/wiki/Vrije_Universiteit_Amsterdam
-# 2. https://stackoverflow.blog/2023/05/31/ceo-update-paving-the-road-forward-with-ai-and-community-at-the-center
-# 3. https://www.euronews.com/travel/2023/02/27/long-queues-and-scams-will-the-new-eu-entry-system-cause-border-chaos
-# 4. https://www.tudelftcampus.nl/time-to-shake-up-the-pile-driving-industry
-# 5  https://vu.nl/nl
-# 6  https://www.u-tokyo.ac.jp/en/
-# 7  https://weather.com/?Goto=Redirected
-# 8  https://www.billboard.com/
-# 9  https://www.government.nl/
-# 10 https://www.cntraveller.com/gallery/beautiful-places-amsterdam
 
-url = 'https://www.cntraveller.com/gallery/beautiful-places-amsterdam'
-response = requests.get(url)
-soup = BeautifulSoup(response.content, 'html.parser')
-body = soup.find('body') # for <head>  body = soup.find('head')
-tags = body.find_all(lambda tag: tag.name not in ['style', 'script'])
+url = 'https://www.cntraveller.com/gallery/beautiful-places-amsterdam' # The URL of the web page to scrape
+response = requests.get(url)                                           # Send an HTTP GET request to the URL
+soup = BeautifulSoup(response.content, 'html.parser')                  # Create a BeautifulSoup object to parse the HTML content
+body = soup.find('body') #Or 'head'                                    # Find the <body> or <head> tag in the parsed HTML
+tags = body.find_all(lambda tag: tag.name not in ['style', 'script'])  # Extract all tags except <style> and <script>
 
-text_tags = 0
-non_text_tags = 0
-text_tag_list = []
-non_text_tag_list = []
-tag_counts = {}
-text_counts = {}
-tag_texts = {}
+text_tags = 0                   # Counter for the number of text-containing tags
+non_text_tags = 0               # Counter for the number of non-text-containing tags
+text_tag_list = []              # List to store the names of text-containing tags
+non_text_tag_list = []          # List to store the names of non-text-containing tags
+tag_counts = {}                 # Dictionary to store the occurrence count of each tag
+text_counts = {}                # Dictionary to store the occurrence count of each text-containing tag
+tag_texts = {}                  # Dictionary to store the text content of each tag
 
+# Iterate through all the tags in the web page
 for tag in tags:
-    if tag.name[0] != '/':  # Only count opening tags
-        remove_css_scripts(tag)  # Call the function to remove CSS and script tags
-        tag_text = get_tag_text(tag)
-        if tag_text:
+    if tag.name[0] != '/':                  # Only count opening tags
+        remove_css_scripts(tag)            # Call the function to remove CSS and script tags
+        tag_text = get_tag_text(tag)       # Extract the text content of the tag
+
+        if tag_text:                       # Check if the tag contains any text
             text_tags += 1
-            text_tag_list.append(tag.name)
-            if tag.name in text_counts:
-                text_counts[tag.name] += 1
-            else:
-                text_counts[tag.name] = 1
-            if tag.name in tag_counts:
-                tag_counts[tag.name] += 1
-            else:
-                tag_counts[tag.name] = 1
-            if tag.name in tag_texts:
-                tag_texts[tag.name].append(tag_text)
-            else:
-                tag_texts[tag.name] = [tag_text]
+            text_tag_list.append(tag.name)                 # Record the tag name in the text_tag_list
+            text_counts[tag.name] = text_counts.get(tag.name, 0) + 1
+            tag_counts[tag.name] = tag_counts.get(tag.name, 0) + 1
+            tag_texts[tag.name] = tag_texts.get(tag.name, []) + [tag_text]  # Store the text content in the tag_texts dictionary
         else:
             non_text_tags += 1
             non_text_tag_list.append(tag.name)
-            if tag.name in tag_counts:
-                tag_counts[tag.name] += 1
-            else:
-                tag_counts[tag.name] = 1
+            tag_counts[tag.name] = tag_counts.get(tag.name, 0) + 1
 
-total_tags = text_tags + non_text_tags
-text_percentage = (text_tags / total_tags) * 100
+total_tags = text_tags + non_text_tags                     # Calculate the total number of tags
+text_percentage = (text_tags / total_tags) * 100           # Calculate the percentage of text-containing tags
 
 text_percentages = {}
+# Calculate the percentage of text within each tag type
 for tag, count in tag_counts.items():
     if tag in text_counts:
         text_percentages[tag] = (text_counts[tag] / count) * 100
@@ -95,10 +82,11 @@ for tag, percentage in sorted(text_percentages.items(), key=lambda x: x[1], reve
         text = ''
     
     if tag == 'form' or tag == 'input' or tag == 'button' or tag == 'footer' or tag == 'nav' or tag == 'svg' or tag == 'figure' or tag == 'figcaption':
-        print(f'{tag}: {percentage:.2f}% [TAG! HERE], text: {text}')
-    else:
         #print(f'{tag}: {percentage:.2f}%')
         print(f'{tag}: {percentage:.2f}% [TAG! HERE], text: {text}')
+    else:
+        print(f'{tag}: {percentage:.2f}%')
+        #print(f'{tag}: {percentage:.2f}% [TAG! HERE], text: {text}')
     
 
 """

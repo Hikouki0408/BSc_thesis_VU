@@ -35,7 +35,6 @@ try:
     '''
     extracted_text = driver.execute_script(script_extract_text)
 
-    # Print the extracted text
     print(extracted_text)
 
 except JavascriptException:

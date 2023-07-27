@@ -40,7 +40,6 @@ class MyHTMLParser(HTMLParser):
             self.inside_head_tag = False
         if tag == "body":
             self.inside_body_tag = False
-        #if tag in ["script", "style", "image", "iframe", "button", "label", "nav", "footer"]:
         if tag in ["title"]:
             self.select_tag_head = False
         if tag in ["script"]:
@@ -81,83 +80,93 @@ class MyHTMLParser(HTMLParser):
             return ''
 
     def handle_data(self, data):
-        message = ''
-        label = "undefined"
-        if self.inside_head_tag:
-            if self.select_tag_head and data.strip():
+        message = ''                         
+        label = "undefined"                  
+
+        if self.inside_head_tag:             # Check if currently inside the <head> tag
+            if self.select_tag_head and data.strip():  # If 'select_tag_head' is True and data is not empty, append the stripped data to 'self.text'
                 self.text += data.strip() + " "
-            elif self.extract_script:
+            elif self.extract_script:        # If 'extract_script' is True, execute JavaScript code and add the extracted content to 'self.text'
                 script_code = data.strip()
                 extracted_content = self.execute_javascript_code(script_code)
                 if extracted_content:
                     self.text += extracted_content + " "
-        if self.inside_body_tag:
-            if not self.skip_tag_body and data.strip():
-                # returns the last tag in the list
-                tag = self.tag_stack[-1] if self.tag_stack else None 
-                if self.extract_script:
+
+        if self.inside_body_tag:             # Check if currently inside the <body> tag
+            if not self.skip_tag_body and data.strip():  # If 'skip_tag_body' is False and data is not empty, proceed with data handling
+                tag = self.tag_stack[-1] if self.tag_stack else None   # Get the last tag in the list or None if the list is empty
+
+                if self.extract_script:      # If 'extract_script' is True, execute JavaScript code and update 'data' with the extracted content
                     script_code = data.strip()
                     extracted_content = self.execute_javascript_code(script_code)
                     data = extracted_content
+
+                # Check data for specific patterns (email, URL, non-contextual, or pure text) using regex
                 if re.search(self.email_pattern, data) and not any(char.isspace() for char in data.strip()):
                     label = "Email"
-                    if label not in self.data_by_label:
+                    if label not in self.data_by_label:     # Create an entry for the label in 'self.data_by_label' if it doesn't exist
                         self.data_by_label[label] = []
-                    self.data_by_label[label].append(data.strip())
-                    message = f"{label}: [{data.strip()}] (tag: {tag})"
+                    self.data_by_label[label].append(data.strip())   # Add the data to the corresponding label's data list
+                    message = f"{label}: [{data.strip()}] (tag: {tag})"  # Construct a message string with the label and data
+
                 elif re.search(self.url_pattern, data) and not any(char.isspace() for char in data.strip()):
                     label = "Website"
                     if label not in self.data_by_label:
                         self.data_by_label[label] = []
                     self.data_by_label[label].append(data.strip())
                     message = f"{label}: [{data.strip()}] (tag: {tag})"
-                elif not re.search(r'[a-zA-Z0-9]', data):
+
+                elif not re.search(r'[a-zA-Z0-9]', data):   # Check if data contains no letters or digits (non-contextual data)
                     label = "Non-contextual"
                     if label not in self.data_by_label:
                         self.data_by_label[label] = []
                     self.data_by_label[label].append(data.strip())
                     message = f"{label}: [{data.strip()}] (tag: {tag})"
-                else:
+
+                else:   # If none of the above patterns match, consider the data as pure text
                     label = "Puretext"
-                    doc = self.nlp(data.strip())
+                    doc = self.nlp(data.strip())   # Apply natural language processing with spaCy
                     named_entities = []
-                    for ent in doc.ents:
+                    for ent in doc.ents:   # Extract named entities like persons, locations, organizations, etc.
                         if ent.label_ in ["PERSON", "GPE", "LANGUAGE", "TIME", "PERCENT", "ORG", "PRODUCT", "EVENT"]:
                             named_entities.append(ent.text)
                         elif ent.label_ == "DATE" and any(char.isdigit() for char in ent.text) and len(ent.text) < 20:
-                            named_entities.append(ent.text)    
-                    if named_entities:
+                            named_entities.append(ent.text)
+                    
+                    if named_entities:   # If named entities are found in the data
                         if label not in self.data_by_label:
                             self.data_by_label[label] = []
-                        self.data_by_label[label].append(data.strip())
-                        self.text += data.strip() + " "
+                        self.data_by_label[label].append(data.strip())   # Add the data to the corresponding label's data list
+                        self.text += data.strip() + " "   # Append the data to 'self.text'
                         message = f"{label}: [{data.strip()}], Labels:[{', '.join([ent.label_ for ent in doc.ents if ent.text in named_entities])}] {', '.join(named_entities)} (tag: {tag})"
                         self.count += 1
                         for ent in doc.ents:
-                            if ent.text in named_entities:
+                            if ent.text in named_entities:    # Add named entities to their respective label's data list
                                 if ent.label_ not in self.data_by_label:
                                     self.data_by_label[ent.label_] = []
                                 self.data_by_label[ent.label_].append(ent.text)
-                    else:
+                    else:   # If no named entities are found, consider the data as pure text
                         if label not in self.data_by_label:
                             self.data_by_label[label] = []
                         self.data_by_label[label].append(data.strip())
                         self.text += data.strip() + " "
                         message = f"{label}: [{data.strip()}] (tag: {tag})"
                         self.count += 1
+
         if message:
-            print(message)
+            print(message)   # Print the constructed 'message' if it contains any relevant information
+
 
 
     def print_data_by_label(self):
-        for label, data in self.data_by_label.items():
-            if label != "Puretext":
+        for label, data in self.data_by_label.items():   # Iterate through the 'self.data_by_label' dictionary
+            if label != "Puretext":                     # Exclude the "Puretext" label from printing
                 print(f"Data for label '{label}': ", end="")
-                for i, datum in enumerate(data):
-                    if i == len(data) - 1:
-                        print(datum)
+                for i, datum in enumerate(data):        # Iterate through the data list for each label
+                    if i == len(data) - 1:              # Check if it's the last element in the data list
+                        print(datum)                    # Print the datum (last element) without a comma at the end
                     else:
-                        print(datum, end=", ") 
+                        print(datum, end=", ")          # Print the datum with a comma at the end (not the last element)
     
                
 with open('index.html', 'r') as file:
