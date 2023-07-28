@@ -24,12 +24,22 @@ def get_tag_text(tag):
     else:
         return ''.join(get_tag_text(child) for child in tag.contents if isinstance(child, str) or child.name not in ['style', 'script'])
 
-    
+# 1. https://theluxurytravelexpert.com/2020/12/14/best-hotels-in-the-world 
+# 2. https://en.wikipedia.org/wiki/Vrije_Universiteit_Amsterdam
+# 3. https://research.ibm.com/blog/utility-toward-useful-quantum
+# 4. https://www.hotcars.com/upcoming-cars-worth-waiting-for/#2023-fisker-ocean
+# 5. https://www.tudelftcampus.nl/time-to-shake-up-the-pile-driving-industry
+# 6. https://hackr.io/blog/what-is-programming
+# 7. https://www.engadget.com/best-android-phone-130030805.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAMJRC35y42RkEpGFN410RsxpbKvMCO1YlLmbtdzQ8pV8l3LRZ5sWPGJQYf-yEwX7vimbG2qzSJYMbpZ545Hz3cup5XB1qlkb203T1mVAKhmOteZxYDxKoohpFTWRvo-M8MzqByHFRBN4-odKGhQEche2Zb-GXjopL6cIZsxeIuLl
+# 8. https://www.amsterdamfoodie.nl/amsterdam-food-guide/indonesian-restaurants-in-amsterdam-rijsttafel
+# 9. https://stackoverflow.blog/2023/05/31/ceo-update-paving-the-road-forward-with-ai-and-community-at-the-center
+# 10. https://www.euronews.com/travel/2023/02/27/long-queues-and-scams-will-the-new-eu-entry-system-cause-border-chaos
 
-url = 'https://www.cntraveller.com/gallery/beautiful-places-amsterdam' # The URL of the web page to scrape
+url = 'https://stackoverflow.blog/2023/05/31/ceo-update-paving-the-road-forward-with-ai-and-community-at-the-center' # The URL of the web page to scrape
 response = requests.get(url)                                           # Send an HTTP GET request to the URL
 soup = BeautifulSoup(response.content, 'html.parser')                  # Create a BeautifulSoup object to parse the HTML content
 body = soup.find('body') #Or 'head'                                    # Find the <body> or <head> tag in the parsed HTML
+# body = soup.find('head')
 tags = body.find_all(lambda tag: tag.name not in ['style', 'script'])  # Extract all tags except <style> and <script>
 
 text_tags = 0                   # Counter for the number of text-containing tags
@@ -81,7 +91,7 @@ for tag, percentage in sorted(text_percentages.items(), key=lambda x: x[1], reve
     else:
         text = ''
     
-    if tag == 'form' or tag == 'input' or tag == 'button' or tag == 'footer' or tag == 'nav' or tag == 'svg' or tag == 'figure' or tag == 'figcaption':
+    if tag == 'title' or tag == 'button' or tag == 'footer' or tag == 'nav' or tag == 'svg' or tag == 'form' or tag == 'figcaption':
         #print(f'{tag}: {percentage:.2f}%')
         print(f'{tag}: {percentage:.2f}% [TAG! HERE], text: {text}')
     else:

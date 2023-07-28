@@ -2,22 +2,24 @@
 
 # "Extract text from HTML pages for advanced relation extraction"
 # Abstract
-This paper presents a text extraction model that employs HTML parsing and preprocessing
-techniques for advanced relation extraction. The HTML parsing approach focuses
-on decoding HTML text contents and optimizing HTML tag identification to eliminate
-unnecessary or redundant information while securely preserving relevant content. The preprocessing
-stage involves stripping the extracted text and categorizing it into four labels
-to prioritize textual information. The target text contents are then centered, and Open
-IE, utilizing the Python NLP library provided by StanfordCoreNLP, is employed as the
-chosen model for relation extraction. In evaluating the proposed model, an experiment
-was conducted, emphasizing runtime, efficiency, and accuracy as evaluation aspects to
-assess its performance. The model successfully reduced the size of extracted text contents
-from Wikipedia and eBook pages while minimizing runtime. Furthermore, compared to
-the base model with both HTML-based datasets, the proposed model achieved higher
-precision, recall, and F1 score, indicating improved accuracy. Consequently, the proposed
-model not only increases efficiency but also enhances the accuracy of relation extraction.
-improved accuracy. Consequently, the proposed model not only increases efficiency
-but also enhances the accuracy of relation extraction.
+Developing highly efficient techniques for extracting text from HTML pages holds significant
+potential advantages as well as challenges due to the complexities of web pages.
+This paper introduces automated text extraction through HTML, which employs effective
+methods such as HTML parsing and noise elimination, to facilitate relation extraction.
+The HTML parsing approach focuses on decoding HTML text contents and tag filtering
+to eliminate unnecessary information while preserving relevant content securely. In the
+noise elimination stage, the text is stripped and prioritized, centralizing the text content
+to optimize extraction for relation extraction. For this purpose, the chosen model
+is the Open IE system provided by StanfordCoreNLP, which targets the extraction of
+subject-verb-object triples. To systematically evaluate the efficacy of the proposed methods,
+a series of comprehensive experiments were conducted on ten real HTML-based
+websites. The obtained results were meticulously compared against those of a baseline
+model, which deployed a simplistic approach, involving direct text extraction from HTML
+pages without any of the three processes: HTML parsing, tag filtering, or noise elimination.
+The findings reveal that our model successfully achieved reduced extracted text
+size, improved runtime, and higher accuracy compared to the baseline model. These
+outcomes demonstrate the model’s capability to overcome the intricacies of HTML formatting
+and attain accurate text extraction results.
 # HTML Parsing
 - Read and decode HTML text contents
     - Our HTML parsing engine is designed to read and decode HTML content using the following method:
@@ -27,38 +29,86 @@ but also enhances the accuracy of relation extraction.
       ```
 - Optimizing HTML tag identification
     - Conduct an HTML tag experiment with 10 websites to evaluate HTML tags. The code for the HTML Tag experiment can be found in [Tag_experiment](./Tag_experiment).
-    - Based on the experiment, filter out the following tags: ["script", "style", "image", "iframe", "button", "title", "label", "nav", "footer"].
-    - Handle the tag selection using the `tag_stack` in `OIE_extracted_text.py`.
-# Preprocessing
+    - Based on the experiment, filter out the following tags: ["style", "iframe", "svg", "form", "button", "footer", "nav"].
+    - Handle the tag selection using the `tag_stack` in `OIE_proposed_model.py`.
+- Execute JavaScript code in a headless Chrome browser
+    - Set Chrome options for running the browser in a headless mode (without UI)
+        options = webdriver.ChromeOptions()
+        options.add_argument("--headless")
+
+    - Create a new instance of the Chrome browser with the defined options
+        driver = webdriver.Chrome(options=options)
+
+    - Load a blank page in the browser to execute the provided JavaScript code: driver.get()
+    - Implementation can be found in `test_WebDriver.py`
+# Noise elimination
 - Noise removal
     - To remove noise and unwanted characters, the Python built-in string method `strip()` is utilized, enabling the removal of leading and trailing whitespace or specific characters from the strings extracted from HTML pages.
 - Prioritizing the textual information
     - our method categorizes the extracted text into four labels, which are `Email`, `Weblinks`, `Puretext`, and `Noncontextual`, as depicted in the picture below.
 
       
-![Figure 1](Figures/work_flow.png)
+![Figure 1](Figures/workflow.png)
 -  Our engine employs such a categorization system based on predefined text formats and patterns, which are as follows:
       
       ```
       self.email_pattern = re.compile(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b')
       self.url_pattern = re.compile(r'^(?:https?://|www\.)\S+\.[a-zA-Z]{2,}(?:[/?#]\S*)?$')
-      Noncontextual = re.search(r'[a-zA-Z0-9]', data)
+      Noncontextual = re.search(r'[a-zA-Z0-9]', data) # Check if data contains no letters or digits (non-contextual data)
       ```
 
 # Open IE
 - The relation extraction model utilized in this experiment is based on a Python NLP library
 provided by the [StanfordCoreNLP](https://nlp.stanford.edu/software/openie.html) framework. To extract relations or information from text, we can utilize the `openie` annotator within the 
 framework. 
+- Make sure to have openie-assembly-5.0-SNAPSHOT.jar in the same folder
+    1. you can download the openie-assembly-5.0-SNAPSHOT.jar at: https://drive.google.com/file/d/19z8LO-CYOfJfV5agm82PZ2JNWNUPIB6D/view
+    2. Start the server : java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
+    3. Then run: python3 OIE_proposed_model.py on another terminal
 - Here is an example of text input and its corresponding result in the picture below. When the extracted text contains two sentences with a period (’.’) separating them, the Open IE model extracts three sets of triples from the input. However, if the period is missing between the two sentences, the model only extracts one set of triples.
   
     <img src="Figures/Open_stanford.png" alt="Figure 2" width="800" height="320">
 # Datasets
+- In order to conduct an experiment to evaluate the performance of our automated text extraction
+model, we have selected 10 real HTMLbased websites for analysis. The selected websites encompass a diverse range of sources, including official university websites, blogs, online articles, news platforms, as well as food and travel reviews. 
 - The structure of the dataset essentially encompasses all the anticipated subject-verb-object triples extracted by the Open IE model.
 - The datasets and related text are available in the folder [Datasets](./Datasets).
-- We have selected two real HTML-based websites for datasets. The first website is a [Wikipedia page](https://en.wikipedia.org/wiki/Vrije_Universiteit_Amsterdam) while the second is an [eBook](https://www.gutenberg.org/cache/epub/27137/pg27137-images.html) presented in HTML format. The text contents from these websites are extracted and compiled into a dataset.
+
 # Experiment
- - Base model vs Our model
- - For the base model, run the code: `OIE_whole.py`
- - For our model, run the code: `OIE_extraced_text.py`
+ - Base model vs Our model in terms of efficiency, runtime, and accuracy.
+ - For the base model, run the code: `OIE_basemodel.py`
+ - For our proposed model, run the code: `OIE_proposed_model.py`
 # Conclusion
-Our HTML parsing approach primarily focuses on decoding HTML text contents and optimizing HTML tag identification to remove unnecessary or redundant information while preserving the relevant content securely. The preprocessing stage involves stripping the extracted text and prioritizing textual information by categorizing it into four labels. After centering the target text contents, Open IE is performed the Python NLP library provided by StanfordCoreNLP. In order to evaluate our proposed model, we conducted an experiment considering runtime, efficiency, and accuracy as evaluation aspects to assess its performance. As a result, our model successfully reduced the size of extracted text contents from Wikipedia and eBook pages while minimizing the runtime. Additionally, our model achieved higher precision, recall, and F1 score compared to the base model with both datasets, demonstrating improved accuracy. Therefore, we can conclude that our proposed model not only increases efficiency but also improve the accuracy of relation extraction, thereby ensuring the extraction of more reliable information that aligns efficiently with the primary goal of relation extraction.
+In conclusion, we presented our efficient
+text extraction techniques utilizing HTML
+parsing and noise elimination for advanced
+relation extraction. Our HTML parsing
+approach primarily focuses on decoding
+HTML text contents and tag filtering to
+remove unnecessary or redundant information
+while preserving the relevant content
+securely. The noise elimination stage involves
+stripping the extracted text and prioritizing
+textual information by categorizing
+it into four labels. After centering the target
+text contents, we employed Open IE using
+the Python NLP library provided by StanfordCoreNLP
+as our chosen model for relation
+extraction. In evaluating our proposed
+model, we conducted experiments focusing
+on runtime, efficiency, and accuracy as evaluation
+aspects to assess its performance. As
+a consequence, our model successfully reduced
+the size of extracted text contents
+from ten real HTML-based websites while
+minimizing the runtime. Additionally, our
+model achieved higher precision, recall, and
+F1 score compared to the base model with
+all the ten HTML-based datasets, demonstrating
+improved accuracy. Therefore, we
+can conclude that our proposed model not
+only increases efficiency but also improve
+the accuracy of relation extraction, thereby
+ensuring the extraction of more reliable information
+that aligns efficiently with the primary
+goal of relation extraction.
