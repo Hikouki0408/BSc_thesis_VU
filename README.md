@@ -1,6 +1,6 @@
 # Bachelor Thesis Computer Science 
 
-# "Extract text from HTML pages for advanced relation extraction"
+# Topic: "Extract text from HTML pages for advanced relation extraction"
 # Abstract
 Developing highly efficient techniques for extracting text from HTML pages holds significant
 potential advantages as well as challenges due to the complexities of web pages.
@@ -29,23 +29,29 @@ and attain accurate text extraction results.
       ```
 - Optimizing HTML tag identification
     - Conduct an HTML tag experiment with 10 websites to evaluate HTML tags. The code for the HTML Tag experiment can be found in [Tag_experiment](./Tag_experiment).
-    - Based on the experiment, filter out the following tags: ["style", "iframe", "svg", "form", "button", "footer", "nav"].
+    - Based on the result, only extract text from "title" and "scrip" inside of the "head" tag
+    - Within the "body" tag,  filter out the following tags: ["style", "iframe", "svg", "form", "button", "footer", "nav"].
     - Handle the tag selection using the `tag_stack` in `OIE_proposed_model.py`.
 - Execute JavaScript code in a headless Chrome browser
+    - Create the function: `def execute_javascript_code`, for this execution
     - Set Chrome options for running the browser in a headless mode (without UI)
-        options = webdriver.ChromeOptions()
-        options.add_argument("--headless")
+        ```
+            # Set Chrome options for running the browser in a headless mode (without UI)
+            options = webdriver.ChromeOptions()
+            options.add_argument("--headless")
 
-    - Create a new instance of the Chrome browser with the defined options
-        driver = webdriver.Chrome(options=options)
+            # Create a new instance of the Chrome browser with the defined options
+            driver = webdriver.Chrome(options=options)
 
-    - Load a blank page in the browser to execute the provided JavaScript code: driver.get()
+            # Load a blank page in the browser to execute the provided JavaScript code
+            driver.get('data:text/html;charset=utf-8,<!DOCTYPE html><html><head></head><body></body></html>')
+        ```
     - Implementation can be found in `test_WebDriver.py`
 # Noise elimination
 - Noise removal
     - To remove noise and unwanted characters, the Python built-in string method `strip()` is utilized, enabling the removal of leading and trailing whitespace or specific characters from the strings extracted from HTML pages.
 - Prioritizing the textual information
-    - our method categorizes the extracted text into four labels, which are `Email`, `Weblinks`, `Puretext`, and `Noncontextual`, as depicted in the picture below.
+    - Our engine categorizes the extracted text into four labels, which are `Email`, `Weblinks`, `Puretext`, and `Noncontextual`, as depicted in the picture below.
 
       
 ![Figure 1](Figures/workflow.png)
@@ -62,12 +68,14 @@ and attain accurate text extraction results.
 provided by the [StanfordCoreNLP](https://nlp.stanford.edu/software/openie.html) framework. To extract relations or information from text, we can utilize the `openie` annotator within the 
 framework. 
 - Make sure to have openie-assembly-5.0-SNAPSHOT.jar in the same folder
-    1. you can download the openie-assembly-5.0-SNAPSHOT.jar at: https://drive.google.com/file/d/19z8LO-CYOfJfV5agm82PZ2JNWNUPIB6D/view
+    1. Download the openie-assembly-5.0-SNAPSHOT.jar at: https://drive.google.com/file/d/19z8LO-CYOfJfV5agm82PZ2JNWNUPIB6D/view
     2. Start the server : java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
     3. Then run: python3 OIE_proposed_model.py on another terminal
 - Here is an example of text input and its corresponding result in the picture below. When the extracted text contains two sentences with a period (’.’) separating them, the Open IE model extracts three sets of triples from the input. However, if the period is missing between the two sentences, the model only extracts one set of triples.
   
     <img src="Figures/Open_stanford.png" alt="Figure 2" width="800" height="320">
+
+- Test such demo with string input by employing `OIE_string.py`
 # Datasets
 - In order to conduct an experiment to evaluate the performance of our automated text extraction
 model, we have selected 10 real HTMLbased websites for analysis. The selected websites encompass a diverse range of sources, including official university websites, blogs, online articles, news platforms, as well as food and travel reviews. 
@@ -76,8 +84,15 @@ model, we have selected 10 real HTMLbased websites for analysis. The selected we
 
 # Experiment
  - Base model vs Our model in terms of efficiency, runtime, and accuracy.
- - For the base model, run the code: `OIE_basemodel.py`
- - For our proposed model, run the code: `OIE_proposed_model.py`
+ - Besemodel is involving direct text extraction from HTML pages without any of the three processes: HTML parsing, tag filtering, or noise elimination, run the code: `OIE_basemodel.py`
+ - Our proposed model extract with HTML parsing, tag filtering, and noise elimination , run the code: `OIE_proposed_model.py`
+
+ # Result
+ - Regarding efficiency, the average percentage reduction among all ten websites is approximately 63%, the figure is available [Efficiency_result](./Figures/Efficiency_result.png)
+ - Regarding runtime, the optimized model improved runtime efficiency by 4.29 seconds (55.27% decrease) across all websites, the figure is available [Runtime_result](./Figures/Runtime_result.png)
+ - Regarding accuracy:
+
+    <img src="Figures/Accuracy_result.png" alt="Figure 3">
 # Conclusion
 In conclusion, we presented our efficient
 text extraction techniques utilizing HTML
