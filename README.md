@@ -69,23 +69,26 @@ provided by the [StanfordCoreNLP](https://nlp.stanford.edu/software/openie.html)
 framework. 
 - Make sure to have openie-assembly-5.0-SNAPSHOT.jar in the same folder
     1. Download the openie-assembly-5.0-SNAPSHOT.jar at: https://drive.google.com/file/d/19z8LO-CYOfJfV5agm82PZ2JNWNUPIB6D/view
-    2. Start the server : java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
-    3. Then run: python3 OIE_proposed_model.py on another terminal
+    2. Start the server by:
+          ```
+          java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
+          ``` 
+    4. Then run: python3 OIE_proposed_model.py on another terminal
 - Here is an example of text input and its corresponding result in the picture below. When the extracted text contains two sentences with a period (’.’) separating them, the Open IE model extracts three sets of triples from the input. However, if the period is missing between the two sentences, the model only extracts one set of triples.
   
     <img src="Figures/Open_stanford.png" alt="Figure 2" width="800" height="320">
 
-- Test such demo with string input by employing `OIE_string.py`
+- Such demo with string input can be tested by `OIE_string.py`
 # Datasets
 - In order to conduct an experiment to evaluate the performance of our automated text extraction
-model, we have selected 10 real HTMLbased websites for analysis. The selected websites encompass a diverse range of sources, including official university websites, blogs, online articles, news platforms, as well as food and travel reviews. 
+model, we have selected 10 real HTML-based websites for analysis. The selected websites encompass a diverse range of sources, including official university websites, blogs, online articles, news platforms, as well as food and travel reviews. 
 - The structure of the dataset essentially encompasses all the anticipated subject-verb-object triples extracted by the Open IE model.
 - The datasets and related text are available in the folder [Datasets](./Datasets).
 
 # Experiment
  - Base model vs Our model in terms of efficiency, runtime, and accuracy.
  - Besemodel is involving direct text extraction from HTML pages without any of the three processes: HTML parsing, tag filtering, or noise elimination, run the code: `OIE_basemodel.py`
- - Our proposed model extract with HTML parsing, tag filtering, and noise elimination , run the code: `OIE_proposed_model.py`
+ - Our proposed model extract with HTML parsing, tag filtering, and noise elimination, run the code: `OIE_proposed_model.py`
 
  # Result
  - Regarding efficiency, the average percentage reduction among all ten websites is approximately 63%, the figure is available [Efficiency_result](./Figures/Efficiency_result.png)
