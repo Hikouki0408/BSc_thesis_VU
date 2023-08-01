@@ -49,7 +49,7 @@ and attain accurate text extraction results.
     - Implementation can be found in `test_WebDriver.py`
 # Noise elimination
 - Noise removal
-    - To remove noise and unwanted characters, the Python built-in string method `strip()` is utilized, enabling the removal of leading and trailing whitespace or specific characters from the strings extracted from HTML pages.
+    - To remove noise and unwanted characters, the Python built-in string method `strip()` is utilized, enabling the removal of leading and trailing whitespace or specific characters from strings extracted from HTML pages.
 - Prioritizing the textual information
     - Our engine categorizes the extracted text into four labels, which are `Email`, `Weblinks`, `Puretext`, and `Noncontextual`, as depicted in the picture below.
 
@@ -73,7 +73,7 @@ framework.
           ```
           java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
           ``` 
-    4. Then run: python3 OIE_proposed_model.py on another terminal
+    3. Run: python3 OIE_proposed_model.py on another terminal
 - Here is an example of text input and its corresponding result in the picture below. When the extracted text contains two sentences with a period (’.’) separating them, the Open IE model extracts three sets of triples from the input. However, if the period is missing between the two sentences, the model only extracts one set of triples.
   
     <img src="Figures/Open_stanford.png" alt="Figure 2" width="800" height="320">
@@ -86,9 +86,9 @@ model, we have selected 10 real HTML-based websites for analysis. The selected w
 - The datasets and related text are available in the folder [Datasets](./Datasets).
 
 # Experiment
- - Base model vs Our model in terms of efficiency, runtime, and accuracy.
+ - Base model vs Our model, in terms of efficiency, runtime, and accuracy.
  - Besemodel is involving direct text extraction from HTML pages without any of the three processes: HTML parsing, tag filtering, or noise elimination, run the code: `OIE_basemodel.py`
- - Our proposed model extract with HTML parsing, tag filtering, and noise elimination, run the code: `OIE_proposed_model.py`
+ - Our proposed model extracts text with HTML parsing, tag filtering, and noise elimination, run the code: `OIE_proposed_model.py`
 
  # Result
  - Regarding efficiency, the average percentage reduction among all ten websites is approximately 63%, the figure is available [Efficiency_result](./Figures/Efficiency_result.png)
