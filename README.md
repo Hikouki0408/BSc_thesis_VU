@@ -130,3 +130,6 @@ the accuracy of relation extraction, thereby
 ensuring the extraction of more reliable information
 that aligns efficiently with the primary
 goal of relation extraction.
+
+# Thesis Paper
+Thesis paper is [here](./Bsc_thesis.pdf).
