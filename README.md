@@ -91,8 +91,8 @@ model, we have selected 10 real HTML-based websites for analysis. The selected w
  - Our proposed model extracts text with HTML parsing, tag filtering, and noise elimination, run the code: `OIE_proposed_model.py`
 
  # Result
- - Regarding efficiency, the average percentage reduction among all ten websites is approximately 63%, the figure is available at [Efficiency_result](./Figures/Efficiency_result.png)
- - Regarding runtime, the optimized model improved runtime efficiency by 4.29 seconds (55.27% decrease) across all websites, the figure is available at: [Runtime_result](./Figures/Runtime_result.png)
+ - Regarding efficiency, the average percentage reduction among all ten websites is approximately 63%, the figure is available at: [Efficiency_result](./Figures/Efficiency_result.png).
+ - Regarding runtime, the optimized model improved runtime efficiency by 4.29 seconds (55.27% decrease) across all websites, the figure is available at: [Runtime_result](./Figures/Runtime_result.png).
  - Regarding accuracy:
 
     <img src="Figures/Accuracy_result.png" alt="Figure 3">
