@@ -1,4 +1,4 @@
-# Bachelor Thesis Computer Science 
+# Bachelor Computer Science Thesis  at VU 
 
 # Topic: "Extract text from HTML pages for advanced relation extraction"
 # Abstract
