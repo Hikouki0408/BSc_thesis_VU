@@ -87,12 +87,12 @@ model, we have selected 10 real HTML-based websites for analysis. The selected w
 
 # Experiment
  - Base model vs Our model, in terms of efficiency, runtime, and accuracy.
- - Besemodel is involving direct text extraction from HTML pages without any of the three processes: HTML parsing, tag filtering, or noise elimination, run the code: `OIE_basemodel.py`
+ - Besemodel involves direct text extraction from HTML pages without any of the three processes: HTML parsing, tag filtering, or noise elimination, run the code: `OIE_basemodel.py`
  - Our proposed model extracts text with HTML parsing, tag filtering, and noise elimination, run the code: `OIE_proposed_model.py`
 
  # Result
- - Regarding efficiency, the average percentage reduction among all ten websites is approximately 63%, the figure is available [Efficiency_result](./Figures/Efficiency_result.png)
- - Regarding runtime, the optimized model improved runtime efficiency by 4.29 seconds (55.27% decrease) across all websites, the figure is available [Runtime_result](./Figures/Runtime_result.png)
+ - Regarding efficiency, the average percentage reduction among all ten websites is approximately 63%, the figure is available at [Efficiency_result](./Figures/Efficiency_result.png)
+ - Regarding runtime, the optimized model improved runtime efficiency by 4.29 seconds (55.27% decrease) across all websites, the figure is available at: [Runtime_result](./Figures/Runtime_result.png)
  - Regarding accuracy:
 
     <img src="Figures/Accuracy_result.png" alt="Figure 3">
