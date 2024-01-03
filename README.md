@@ -1,6 +1,7 @@
 # Bachelor Computer Science Thesis  at VU 
 
 # Topic: "Extract text from HTML pages for advanced relation extraction"
+Thesis paper is [here](./Bsc_thesis.pdf).
 # Abstract
 Developing highly efficient techniques for extracting text from HTML pages holds significant
 potential advantages as well as challenges due to the complexities of web pages.
@@ -130,6 +131,3 @@ the accuracy of relation extraction, thereby
 ensuring the extraction of more reliable information
 that aligns efficiently with the primary
 goal of relation extraction.
-
-# Thesis Paper
-Thesis paper is [here](./Bsc_thesis.pdf).
